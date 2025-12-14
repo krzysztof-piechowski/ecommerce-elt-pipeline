@@ -1,0 +1,5002 @@
+[
+  {
+    "customer_id": 1001,
+    "email": "ryan02@example.com",
+    "first_name": "Cheyenne",
+    "last_name": "Mendoza",
+    "phone": "+1-796-966-6341x37594",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1002,
+    "email": "stacie54@example.org",
+    "first_name": "Tina",
+    "last_name": "Miller",
+    "phone": "252-475-6850x7711",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1003,
+    "email": "marytorres@example.com",
+    "first_name": "Madison",
+    "last_name": "Dillon",
+    "phone": "(212)279-4047",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1004,
+    "email": "omoran@example.net",
+    "first_name": "Gwendolyn",
+    "last_name": "Morris",
+    "phone": "2285102207",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1005,
+    "email": "martinjohn@example.com",
+    "first_name": "Denise",
+    "last_name": "Robinson",
+    "phone": "001-552-591-3368x109",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1006,
+    "email": "shelia47@example.com",
+    "first_name": "Jeffrey",
+    "last_name": "Sanchez",
+    "phone": "5539027306",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1007,
+    "email": "nlara@example.net",
+    "first_name": "Laura",
+    "last_name": "Frost",
+    "phone": "001-856-475-6514x47933",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1008,
+    "email": "joseph48@example.org",
+    "first_name": "Derrick",
+    "last_name": "Kelley",
+    "phone": "5187018269",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1009,
+    "email": "jonathan78@example.net",
+    "first_name": "Adam",
+    "last_name": "Dunn",
+    "phone": "001-628-716-5550",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1010,
+    "email": "randerson@example.com",
+    "first_name": "Melissa",
+    "last_name": "Reyes",
+    "phone": "615-455-4948",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1011,
+    "email": "princemichelle@example.net",
+    "first_name": "Matthew",
+    "last_name": "Montoya",
+    "phone": "(216)344-0041x4239",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1012,
+    "email": "jenniferrice@example.com",
+    "first_name": "Brianna",
+    "last_name": "Davis",
+    "phone": "+1-324-696-0267",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1013,
+    "email": "uschultz@example.org",
+    "first_name": "Austin",
+    "last_name": "Wood",
+    "phone": "2779601245",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1014,
+    "email": "robinsoncourtney@example.net",
+    "first_name": "Mario",
+    "last_name": "Kim",
+    "phone": "+1-720-990-0867x222",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1015,
+    "email": "whitejennifer@example.org",
+    "first_name": "Jennifer",
+    "last_name": "Rogers",
+    "phone": "(335)326-5375x7559",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1016,
+    "email": "nicholas26@example.com",
+    "first_name": "Melissa",
+    "last_name": "Hudson",
+    "phone": "591-475-6631x02742",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1017,
+    "email": "timothychen@example.com",
+    "first_name": "Elizabeth",
+    "last_name": "Lee",
+    "phone": "376-275-0587x3010",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1018,
+    "email": "fpoole@example.net",
+    "first_name": "Jose",
+    "last_name": "Chapman",
+    "phone": "001-682-884-9064x6990",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1019,
+    "email": "qsantiago@example.net",
+    "first_name": "Nicole",
+    "last_name": "Williams",
+    "phone": "539-576-5603x97538",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1020,
+    "email": "jacobpalmer@example.net",
+    "first_name": "William",
+    "last_name": "Benton",
+    "phone": "(967)375-0847x17488",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1021,
+    "email": "kennethcarey@example.com",
+    "first_name": "Ryan",
+    "last_name": "White",
+    "phone": "001-688-636-4072x131",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1022,
+    "email": "michelleshaw@example.org",
+    "first_name": "Julia",
+    "last_name": "Armstrong",
+    "phone": "770.886.4537",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1023,
+    "email": "bradykevin@example.com",
+    "first_name": "Ryan",
+    "last_name": "Gibson",
+    "phone": "(906)369-6026x7476",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1024,
+    "email": "william50@example.net",
+    "first_name": "Richard",
+    "last_name": "Coffey",
+    "phone": "(483)502-7023x6095",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1025,
+    "email": "howelltiffany@example.com",
+    "first_name": "Charles",
+    "last_name": "Keith",
+    "phone": "(328)702-5232x13827",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1026,
+    "email": "kirbyheather@example.org",
+    "first_name": "Tony",
+    "last_name": "Williams",
+    "phone": "(530)542-1411x487",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1027,
+    "email": "udavis@example.org",
+    "first_name": "Vanessa",
+    "last_name": "Lloyd",
+    "phone": "564-575-2609",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1028,
+    "email": "ccohen@example.com",
+    "first_name": "Laura",
+    "last_name": "Martinez",
+    "phone": "001-683-689-7233x2995",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1029,
+    "email": "uromero@example.net",
+    "first_name": "James",
+    "last_name": "Lin",
+    "phone": "276-396-9068x9798",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1030,
+    "email": "ssingleton@example.org",
+    "first_name": "Julie",
+    "last_name": "May",
+    "phone": "873.330.6839x636",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1031,
+    "email": "alex61@example.net",
+    "first_name": "Michael",
+    "last_name": "Callahan",
+    "phone": "320-481-7705x04799",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1032,
+    "email": "samantha93@example.org",
+    "first_name": "Brad",
+    "last_name": "Duncan",
+    "phone": "+1-680-461-3543x1881",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1033,
+    "email": "alvarezlawrence@example.com",
+    "first_name": "Joseph",
+    "last_name": "Goodman",
+    "phone": "001-935-205-4261x9487",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1034,
+    "email": "ibarradavid@example.com",
+    "first_name": "Garrett",
+    "last_name": "Wells",
+    "phone": "(233)233-6018x36080",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1035,
+    "email": "poolealexandria@example.org",
+    "first_name": "Sarah",
+    "last_name": "Neal",
+    "phone": "001-707-708-2442x335",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1036,
+    "email": "nguyenmichele@example.net",
+    "first_name": "Anthony",
+    "last_name": "Marshall",
+    "phone": "208-366-7654",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1037,
+    "email": "buckleykaitlin@example.net",
+    "first_name": "Keith",
+    "last_name": "Swanson",
+    "phone": "482-250-7306x33718",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1038,
+    "email": "larrymckee@example.com",
+    "first_name": "Michelle",
+    "last_name": "Nichols",
+    "phone": "+1-753-992-6238x15547",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1039,
+    "email": "stephanielucero@example.org",
+    "first_name": "Scott",
+    "last_name": "Morton",
+    "phone": "667-786-6735x5690",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1040,
+    "email": "thomasgarcia@example.org",
+    "first_name": "Corey",
+    "last_name": "Reed",
+    "phone": "001-882-365-0768",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1041,
+    "email": "brianbender@example.com",
+    "first_name": "Thomas",
+    "last_name": "Morales",
+    "phone": "264.946.0507x19039",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1042,
+    "email": "wwalker@example.net",
+    "first_name": "Dorothy",
+    "last_name": "Newton",
+    "phone": "5244923752",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1043,
+    "email": "farrellyvonne@example.net",
+    "first_name": "Johnny",
+    "last_name": "Alexander",
+    "phone": "(267)985-3040x561",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1044,
+    "email": "marissa48@example.org",
+    "first_name": "Eric",
+    "last_name": "Hill",
+    "phone": "933-302-5097x523",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1045,
+    "email": "dominic37@example.org",
+    "first_name": "Chase",
+    "last_name": "Lindsey",
+    "phone": "001-900-877-6195x9265",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1046,
+    "email": "nicholasolson@example.com",
+    "first_name": "Amy",
+    "last_name": "Lindsey",
+    "phone": "4857039937",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1047,
+    "email": "amandabaldwin@example.net",
+    "first_name": "Nicole",
+    "last_name": "Lawrence",
+    "phone": "334.459.2508x8907",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1048,
+    "email": "millerdonald@example.net",
+    "first_name": "Emily",
+    "last_name": "Reed",
+    "phone": "+1-284-803-7165x963",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1049,
+    "email": "lorikim@example.com",
+    "first_name": "Brian",
+    "last_name": "Stevens",
+    "phone": "+1-797-630-4045x337",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1050,
+    "email": "brian92@example.com",
+    "first_name": "Hannah",
+    "last_name": "Lewis",
+    "phone": "001-576-802-2026",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1051,
+    "email": "gtorres@example.org",
+    "first_name": "Heather",
+    "last_name": "Gonzales",
+    "phone": "573.561.2163x21440",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1052,
+    "email": "daviscynthia@example.org",
+    "first_name": "Whitney",
+    "last_name": "Simpson",
+    "phone": "+1-515-822-5654",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1053,
+    "email": "dandrews@example.com",
+    "first_name": "Ethan",
+    "last_name": "Smith",
+    "phone": "496.561.8802x9277",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1054,
+    "email": "kevin83@example.org",
+    "first_name": "Shelly",
+    "last_name": "Kane",
+    "phone": "+1-519-755-9799x13613",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1055,
+    "email": "pamelatorres@example.net",
+    "first_name": "Madison",
+    "last_name": "Rogers",
+    "phone": "001-216-604-5205x13595",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1056,
+    "email": "cdickson@example.org",
+    "first_name": "Ryan",
+    "last_name": "Webb",
+    "phone": "235.671.8458x94814",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1057,
+    "email": "morgan66@example.org",
+    "first_name": "Jaime",
+    "last_name": "Cunningham",
+    "phone": "(319)292-7709",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1058,
+    "email": "jamesleonard@example.com",
+    "first_name": "Christopher",
+    "last_name": "Scott",
+    "phone": "604-991-6414",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1059,
+    "email": "michaelcampbell@example.com",
+    "first_name": "Angela",
+    "last_name": "Smith",
+    "phone": "793.349.4640",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1060,
+    "email": "bassjennifer@example.org",
+    "first_name": "Ashley",
+    "last_name": "Bowen",
+    "phone": "001-748-271-6325x34079",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1061,
+    "email": "christineklein@example.com",
+    "first_name": "Scott",
+    "last_name": "Kim",
+    "phone": "702.250.0338x1364",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1062,
+    "email": "andersonraymond@example.org",
+    "first_name": "Ashley",
+    "last_name": "Cooper",
+    "phone": "+1-643-405-4413x9602",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1063,
+    "email": "jeffreycunningham@example.com",
+    "first_name": "Jason",
+    "last_name": "Morris",
+    "phone": "765-993-4669",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1064,
+    "email": "carolyn78@example.com",
+    "first_name": "Dawn",
+    "last_name": "Brown",
+    "phone": "(405)466-5760",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1065,
+    "email": "butlerjohn@example.com",
+    "first_name": "Alexander",
+    "last_name": "Chan",
+    "phone": "001-521-700-1688x136",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1066,
+    "email": "brad11@example.net",
+    "first_name": "Matthew",
+    "last_name": "Swanson",
+    "phone": "390.265.5884x61858",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1067,
+    "email": "anthonyfreeman@example.net",
+    "first_name": "Amy",
+    "last_name": "Brown",
+    "phone": "001-993-590-5440x3742",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1068,
+    "email": "mkramer@example.org",
+    "first_name": "Dawn",
+    "last_name": "Hensley",
+    "phone": "6212663397",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1069,
+    "email": "mary07@example.org",
+    "first_name": "Shane",
+    "last_name": "Clark",
+    "phone": "001-442-922-8790x301",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1070,
+    "email": "ljohnson@example.net",
+    "first_name": "Charles",
+    "last_name": "Sanchez",
+    "phone": "476-449-5986x5761",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1071,
+    "email": "christinajensen@example.org",
+    "first_name": "Kaitlyn",
+    "last_name": "Richards",
+    "phone": "(847)791-9018x218",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1072,
+    "email": "pbeasley@example.com",
+    "first_name": "Doris",
+    "last_name": "Garrison",
+    "phone": "(822)755-9433",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1073,
+    "email": "richard22@example.com",
+    "first_name": "Gregory",
+    "last_name": "Ramsey",
+    "phone": "(620)354-9465",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1074,
+    "email": "yhunt@example.net",
+    "first_name": "Wyatt",
+    "last_name": "Morris",
+    "phone": "569.556.5938",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1075,
+    "email": "james66@example.net",
+    "first_name": "Wanda",
+    "last_name": "Wilson",
+    "phone": "436.634.3543",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1076,
+    "email": "christopherball@example.com",
+    "first_name": "Steven",
+    "last_name": "Rogers",
+    "phone": "+1-295-618-9042x28437",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1077,
+    "email": "ureed@example.net",
+    "first_name": "Bonnie",
+    "last_name": "Alexander",
+    "phone": "(427)863-4966",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1078,
+    "email": "oberry@example.org",
+    "first_name": "Nicole",
+    "last_name": "Horton",
+    "phone": "5728341157",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1079,
+    "email": "pjohnson@example.net",
+    "first_name": "Robert",
+    "last_name": "Hansen",
+    "phone": "001-418-214-2461",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1080,
+    "email": "sarah46@example.org",
+    "first_name": "Andrew",
+    "last_name": "Brown",
+    "phone": "673.556.5022x21608",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1081,
+    "email": "kingelizabeth@example.org",
+    "first_name": "Carrie",
+    "last_name": "Mcbride",
+    "phone": "+1-765-674-4062x5025",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1082,
+    "email": "valeriescott@example.org",
+    "first_name": "Melissa",
+    "last_name": "Taylor",
+    "phone": "580.855.8776x0298",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1083,
+    "email": "scottmurray@example.com",
+    "first_name": "Timothy",
+    "last_name": "Turner",
+    "phone": "392.850.3213",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1084,
+    "email": "justinphillips@example.net",
+    "first_name": "Maria",
+    "last_name": "Serrano",
+    "phone": "5003060289",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1085,
+    "email": "nicolecoleman@example.com",
+    "first_name": "David",
+    "last_name": "Pitts",
+    "phone": "001-274-906-9605x328",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1086,
+    "email": "kyleclark@example.org",
+    "first_name": "Katherine",
+    "last_name": "Nelson",
+    "phone": "001-544-512-3150x7833",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1087,
+    "email": "kylemunoz@example.com",
+    "first_name": "Cody",
+    "last_name": "Cabrera",
+    "phone": "001-310-442-4504x534",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1088,
+    "email": "christie82@example.net",
+    "first_name": "Mary",
+    "last_name": "Craig",
+    "phone": "+1-753-553-9718x1801",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1089,
+    "email": "melindagilmore@example.org",
+    "first_name": "Thomas",
+    "last_name": "Chang",
+    "phone": "8407753920",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1090,
+    "email": "matthewdonaldson@example.org",
+    "first_name": "Karen",
+    "last_name": "Kelly",
+    "phone": "(322)645-0666x4451",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1091,
+    "email": "mhall@example.com",
+    "first_name": "James",
+    "last_name": "Spencer",
+    "phone": "359-759-7905",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1092,
+    "email": "caleb34@example.net",
+    "first_name": "David",
+    "last_name": "Richardson",
+    "phone": "774.658.5369x5044",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1093,
+    "email": "riversallen@example.net",
+    "first_name": "Phillip",
+    "last_name": "Johnson",
+    "phone": "781-549-5528x797",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1094,
+    "email": "bennettemily@example.net",
+    "first_name": "Michael",
+    "last_name": "Ali",
+    "phone": "6619491550",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1095,
+    "email": "simmonsjasmine@example.org",
+    "first_name": "Jessica",
+    "last_name": "Rodriguez",
+    "phone": "+1-453-593-8113x909",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1096,
+    "email": "otaylor@example.com",
+    "first_name": "Tiffany",
+    "last_name": "Bartlett",
+    "phone": "420.783.4018x89902",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1097,
+    "email": "cedwards@example.org",
+    "first_name": "Jeffrey",
+    "last_name": "Ward",
+    "phone": "(784)740-8944",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1098,
+    "email": "tristan83@example.com",
+    "first_name": "Maria",
+    "last_name": "Garcia",
+    "phone": "(834)506-9540x95155",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1099,
+    "email": "sanchezrobert@example.com",
+    "first_name": "Jerome",
+    "last_name": "Davis",
+    "phone": "+1-360-486-6645x51239",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1100,
+    "email": "adamcarey@example.net",
+    "first_name": "Heather",
+    "last_name": "Martinez",
+    "phone": "423.961.8865",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1101,
+    "email": "brooksteresa@example.net",
+    "first_name": "Lauren",
+    "last_name": "Chambers",
+    "phone": "+1-964-699-5296",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1102,
+    "email": "garciakristen@example.com",
+    "first_name": "Courtney",
+    "last_name": "Wilson",
+    "phone": "257-263-2113x50072",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1103,
+    "email": "caseystevens@example.org",
+    "first_name": "Sue",
+    "last_name": "Garcia",
+    "phone": "832.336.2609x97623",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1104,
+    "email": "kennethandrade@example.net",
+    "first_name": "Jason",
+    "last_name": "Davidson",
+    "phone": "+1-582-984-2862x5219",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1105,
+    "email": "kingelizabeth@example.net",
+    "first_name": "Timothy",
+    "last_name": "Cobb",
+    "phone": "+1-235-728-1765x89217",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1106,
+    "email": "johnkelly@example.org",
+    "first_name": "Nicholas",
+    "last_name": "Cole",
+    "phone": "2002487062",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1107,
+    "email": "martincharles@example.net",
+    "first_name": "Tiffany",
+    "last_name": "Stuart",
+    "phone": "(299)587-7099x4711",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1108,
+    "email": "victoria96@example.com",
+    "first_name": "Michael",
+    "last_name": "Carter",
+    "phone": "+1-744-338-1467x8488",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1109,
+    "email": "barbarabenson@example.org",
+    "first_name": "Michael",
+    "last_name": "Cook",
+    "phone": "+1-324-812-7786x4310",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1110,
+    "email": "edwardsjody@example.org",
+    "first_name": "Nancy",
+    "last_name": "Vasquez",
+    "phone": "440-541-0822",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1111,
+    "email": "baldwinholly@example.com",
+    "first_name": "Charles",
+    "last_name": "Joseph",
+    "phone": "380-552-7910x60483",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1112,
+    "email": "margaretprice@example.net",
+    "first_name": "Nancy",
+    "last_name": "Thompson",
+    "phone": "+1-789-212-8913x43761",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1113,
+    "email": "amandaevans@example.com",
+    "first_name": "Donald",
+    "last_name": "Bishop",
+    "phone": "+1-743-403-0137x59571",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1114,
+    "email": "jenniferatkins@example.net",
+    "first_name": "Brian",
+    "last_name": "Morrison",
+    "phone": "001-758-661-0334",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1115,
+    "email": "mitchelltrujillo@example.com",
+    "first_name": "Michael",
+    "last_name": "Zimmerman",
+    "phone": "(683)577-2860x07676",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1116,
+    "email": "patriciafernandez@example.org",
+    "first_name": "Emily",
+    "last_name": "Johnston",
+    "phone": "459-284-9454x742",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1117,
+    "email": "michelehahn@example.com",
+    "first_name": "Karla",
+    "last_name": "Hernandez",
+    "phone": "001-443-799-0123x50317",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1118,
+    "email": "marciaevans@example.com",
+    "first_name": "Jason",
+    "last_name": "Rice",
+    "phone": "247.270.8532x452",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1119,
+    "email": "patricia55@example.com",
+    "first_name": "Brittany",
+    "last_name": "Poole",
+    "phone": "001-989-435-3374",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1120,
+    "email": "fhamilton@example.org",
+    "first_name": "Brittany",
+    "last_name": "May",
+    "phone": "001-961-780-8538x7168",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1121,
+    "email": "cheryl92@example.net",
+    "first_name": "Felicia",
+    "last_name": "Pham",
+    "phone": "636.388.2109x561",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1122,
+    "email": "jstanley@example.org",
+    "first_name": "Shelley",
+    "last_name": "Phillips",
+    "phone": "001-703-392-1443x658",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1123,
+    "email": "laurie67@example.net",
+    "first_name": "Keith",
+    "last_name": "Freeman",
+    "phone": "+1-222-712-0172x7111",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1124,
+    "email": "hclark@example.com",
+    "first_name": "Ronald",
+    "last_name": "Hudson",
+    "phone": "(893)742-6910x43304",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1125,
+    "email": "laurawoods@example.net",
+    "first_name": "Molly",
+    "last_name": "Burgess",
+    "phone": "(699)584-1994x998",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1126,
+    "email": "durhamtravis@example.net",
+    "first_name": "Nancy",
+    "last_name": "Hernandez",
+    "phone": "+1-801-834-3818x310",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1127,
+    "email": "tlogan@example.net",
+    "first_name": "Carmen",
+    "last_name": "Wu",
+    "phone": "001-773-260-0702x0289",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1128,
+    "email": "thomas20@example.net",
+    "first_name": "Sarah",
+    "last_name": "Vasquez",
+    "phone": "001-361-691-6292x43405",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1129,
+    "email": "stephanie08@example.net",
+    "first_name": "Jessica",
+    "last_name": "Vazquez",
+    "phone": "(874)837-5220",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1130,
+    "email": "pearsondavid@example.com",
+    "first_name": "Tyler",
+    "last_name": "Hatfield",
+    "phone": "850-496-0596",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1131,
+    "email": "ybarr@example.org",
+    "first_name": "Robert",
+    "last_name": "Murphy",
+    "phone": "+1-642-431-7827x60249",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1132,
+    "email": "qward@example.org",
+    "first_name": "Brenda",
+    "last_name": "Edwards",
+    "phone": "8024168710",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1133,
+    "email": "frykristin@example.org",
+    "first_name": "Brianna",
+    "last_name": "Vaughan",
+    "phone": "(435)868-6657x7231",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1134,
+    "email": "amy67@example.com",
+    "first_name": "Nicholas",
+    "last_name": "Berry",
+    "phone": "730.678.0341",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1135,
+    "email": "jamie75@example.net",
+    "first_name": "Jacqueline",
+    "last_name": "Bryant",
+    "phone": "+1-508-225-7421x671",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1136,
+    "email": "eric89@example.org",
+    "first_name": "Michele",
+    "last_name": "Villarreal",
+    "phone": "(340)993-3873x02855",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1137,
+    "email": "lauraobrien@example.org",
+    "first_name": "Christopher",
+    "last_name": "Lee",
+    "phone": "722-222-4320",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1138,
+    "email": "kimberlyhuff@example.net",
+    "first_name": "Alicia",
+    "last_name": "Mendoza",
+    "phone": "(465)657-5402",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1139,
+    "email": "pricesusan@example.com",
+    "first_name": "Donald",
+    "last_name": "Vaughn",
+    "phone": "8376030582",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1140,
+    "email": "paulkristen@example.net",
+    "first_name": "Wayne",
+    "last_name": "Carr",
+    "phone": "544.909.1114x8344",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1141,
+    "email": "jmason@example.net",
+    "first_name": "Cindy",
+    "last_name": "Byrd",
+    "phone": "001-257-474-9076x00205",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1142,
+    "email": "garnerlinda@example.org",
+    "first_name": "Justin",
+    "last_name": "Knight",
+    "phone": "(511)977-0513x977",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1143,
+    "email": "fanderson@example.net",
+    "first_name": "Nicholas",
+    "last_name": "Smith",
+    "phone": "9604651407",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1144,
+    "email": "jamesjohnson@example.com",
+    "first_name": "Lisa",
+    "last_name": "Jackson",
+    "phone": "2848548737",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1145,
+    "email": "xmorse@example.org",
+    "first_name": "Thomas",
+    "last_name": "Lopez",
+    "phone": "655.389.1814x8898",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1146,
+    "email": "monique30@example.com",
+    "first_name": "Courtney",
+    "last_name": "Miller",
+    "phone": "(489)585-2403x782",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1147,
+    "email": "melaniedavila@example.net",
+    "first_name": "Robert",
+    "last_name": "Lopez",
+    "phone": "7027989598",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1148,
+    "email": "vwilliams@example.net",
+    "first_name": "Sophia",
+    "last_name": "Ochoa",
+    "phone": "975.774.1753x68189",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1149,
+    "email": "ujones@example.net",
+    "first_name": "Jose",
+    "last_name": "Rogers",
+    "phone": "7032634561",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1150,
+    "email": "youngbrenda@example.net",
+    "first_name": "Ana",
+    "last_name": "Dominguez",
+    "phone": "6316616263",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1151,
+    "email": "brent59@example.net",
+    "first_name": "Kimberly",
+    "last_name": "Klein",
+    "phone": "645.838.7388x05764",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1152,
+    "email": "mariathomas@example.org",
+    "first_name": "Amy",
+    "last_name": "Brown",
+    "phone": "+1-582-717-6135x37113",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1153,
+    "email": "cassandrabradley@example.com",
+    "first_name": "Lori",
+    "last_name": "Rose",
+    "phone": "432-802-0238x6404",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1154,
+    "email": "wnelson@example.org",
+    "first_name": "Lisa",
+    "last_name": "Cervantes",
+    "phone": "550-586-4952x134",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1155,
+    "email": "qhess@example.net",
+    "first_name": "David",
+    "last_name": "Grant",
+    "phone": "464-211-2189x92600",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1156,
+    "email": "apineda@example.net",
+    "first_name": "Lynn",
+    "last_name": "Martin",
+    "phone": "807.219.8272",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1157,
+    "email": "jacquelinemills@example.org",
+    "first_name": "Pam",
+    "last_name": "Dunn",
+    "phone": "(598)414-5243x3005",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1158,
+    "email": "medinatrevor@example.org",
+    "first_name": "Angela",
+    "last_name": "Rollins",
+    "phone": "+1-877-954-8843x3716",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1159,
+    "email": "meyersdavid@example.net",
+    "first_name": "Brendan",
+    "last_name": "Obrien",
+    "phone": "867.295.8152",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1160,
+    "email": "millerbrian@example.net",
+    "first_name": "Shane",
+    "last_name": "Arias",
+    "phone": "(653)589-3449",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1161,
+    "email": "johnny28@example.com",
+    "first_name": "Nathan",
+    "last_name": "Mcdonald",
+    "phone": "(948)241-3585x4901",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1162,
+    "email": "kennedypeter@example.net",
+    "first_name": "Larry",
+    "last_name": "Marsh",
+    "phone": "3029707927",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1163,
+    "email": "cynthia08@example.net",
+    "first_name": "Phillip",
+    "last_name": "Reese",
+    "phone": "(966)415-1247x127",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1164,
+    "email": "paulharris@example.com",
+    "first_name": "Felicia",
+    "last_name": "Torres",
+    "phone": "001-500-579-4130x2706",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1165,
+    "email": "nhernandez@example.com",
+    "first_name": "Brenda",
+    "last_name": "Estrada",
+    "phone": "734-583-3379",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1166,
+    "email": "karen63@example.org",
+    "first_name": "Dave",
+    "last_name": "Valdez",
+    "phone": "7138054318",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1167,
+    "email": "austindonald@example.net",
+    "first_name": "Wanda",
+    "last_name": "Cruz",
+    "phone": "480-489-7008x93369",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1168,
+    "email": "palmerhannah@example.net",
+    "first_name": "Joseph",
+    "last_name": "Powell",
+    "phone": "229.805.7481",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1169,
+    "email": "yjohnson@example.com",
+    "first_name": "James",
+    "last_name": "Hamilton",
+    "phone": "242.742.2138",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1170,
+    "email": "sjensen@example.com",
+    "first_name": "Jennifer",
+    "last_name": "Graham",
+    "phone": "268-950-9876x13229",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1171,
+    "email": "jgreen@example.net",
+    "first_name": "Sandra",
+    "last_name": "Berg",
+    "phone": "001-247-363-5357x10882",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1172,
+    "email": "owenedward@example.net",
+    "first_name": "Jonathon",
+    "last_name": "Jones",
+    "phone": "+1-714-917-4357x70626",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1173,
+    "email": "bartlettsteven@example.com",
+    "first_name": "Roberta",
+    "last_name": "Christian",
+    "phone": "(772)312-4936x7954",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1174,
+    "email": "cperez@example.net",
+    "first_name": "Brittany",
+    "last_name": "Rodriguez",
+    "phone": "+1-402-217-7697x361",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1175,
+    "email": "hhodges@example.net",
+    "first_name": "Heather",
+    "last_name": "Rivera",
+    "phone": "001-309-862-2938",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1176,
+    "email": "jennifergonzalez@example.org",
+    "first_name": "Todd",
+    "last_name": "Good",
+    "phone": "+1-265-526-3036",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1177,
+    "email": "meganwilliams@example.com",
+    "first_name": "Mario",
+    "last_name": "Reeves",
+    "phone": "456.717.7738x331",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1178,
+    "email": "gmason@example.com",
+    "first_name": "Luis",
+    "last_name": "Bartlett",
+    "phone": "(426)780-8085",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1179,
+    "email": "zchang@example.com",
+    "first_name": "Jill",
+    "last_name": "Huffman",
+    "phone": "922.588.8959x80195",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1180,
+    "email": "kennedymegan@example.com",
+    "first_name": "Chelsea",
+    "last_name": "Stewart",
+    "phone": "001-974-905-1838x520",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1181,
+    "email": "lance81@example.net",
+    "first_name": "Bradley",
+    "last_name": "Smith",
+    "phone": "(451)295-4472x012",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1182,
+    "email": "haleypalmer@example.net",
+    "first_name": "Sabrina",
+    "last_name": "Bonilla",
+    "phone": "+1-234-749-4016x6666",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1183,
+    "email": "harriskyle@example.net",
+    "first_name": "Troy",
+    "last_name": "West",
+    "phone": "001-238-842-0595",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1184,
+    "email": "anthony79@example.com",
+    "first_name": "Anthony",
+    "last_name": "Anderson",
+    "phone": "673-770-7263x790",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1185,
+    "email": "ryanwilliams@example.net",
+    "first_name": "Samantha",
+    "last_name": "Hanson",
+    "phone": "(256)724-0300x215",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1186,
+    "email": "kristinjones@example.net",
+    "first_name": "Keith",
+    "last_name": "Brown",
+    "phone": "+1-482-989-4408",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1187,
+    "email": "lewisstephanie@example.net",
+    "first_name": "Rebecca",
+    "last_name": "Flores",
+    "phone": "673-915-7253",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1188,
+    "email": "jeffreylynch@example.com",
+    "first_name": "Savannah",
+    "last_name": "Lopez",
+    "phone": "917-607-2600x90902",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1189,
+    "email": "burnswendy@example.org",
+    "first_name": "Paul",
+    "last_name": "Johnson",
+    "phone": "928.445.3794x9871",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1190,
+    "email": "helen72@example.com",
+    "first_name": "Richard",
+    "last_name": "Jones",
+    "phone": "675-356-4650",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1191,
+    "email": "watkinsjordan@example.net",
+    "first_name": "Michelle",
+    "last_name": "Mills",
+    "phone": "317.683.0833x202",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1192,
+    "email": "erin59@example.com",
+    "first_name": "Carrie",
+    "last_name": "Nguyen",
+    "phone": "(627)468-3447x699",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1193,
+    "email": "dtucker@example.net",
+    "first_name": "Julie",
+    "last_name": "Spence",
+    "phone": "779.297.8111",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1194,
+    "email": "james19@example.net",
+    "first_name": "Ian",
+    "last_name": "Schroeder",
+    "phone": "001-943-443-0825x99015",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1195,
+    "email": "robert64@example.org",
+    "first_name": "Susan",
+    "last_name": "Rodriguez",
+    "phone": "544.673.2903x106",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1196,
+    "email": "benjaminsexton@example.net",
+    "first_name": "Cheryl",
+    "last_name": "Cherry",
+    "phone": "285.753.6583x8272",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1197,
+    "email": "fclark@example.net",
+    "first_name": "Jimmy",
+    "last_name": "Mason",
+    "phone": "641.998.2631x0840",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1198,
+    "email": "carlsondenise@example.net",
+    "first_name": "Lindsey",
+    "last_name": "Wheeler",
+    "phone": "(693)423-1052x7624",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1199,
+    "email": "castillomichael@example.net",
+    "first_name": "Jessica",
+    "last_name": "Flores",
+    "phone": "001-557-725-9303",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1200,
+    "email": "bradshawdana@example.net",
+    "first_name": "Sean",
+    "last_name": "Prince",
+    "phone": "9778053133",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1201,
+    "email": "flee@example.com",
+    "first_name": "Lynn",
+    "last_name": "Everett",
+    "phone": "(810)952-0359x50473",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1202,
+    "email": "nhicks@example.org",
+    "first_name": "Jamie",
+    "last_name": "Soto",
+    "phone": "410-611-7804x5613",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1203,
+    "email": "kim75@example.com",
+    "first_name": "Keith",
+    "last_name": "Huerta",
+    "phone": "001-768-658-5149x82867",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1204,
+    "email": "smithleslie@example.com",
+    "first_name": "Erik",
+    "last_name": "Myers",
+    "phone": "+1-668-915-2018",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1205,
+    "email": "cory66@example.net",
+    "first_name": "Robert",
+    "last_name": "Johnson",
+    "phone": "429-460-8911x4616",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1206,
+    "email": "kellybecker@example.org",
+    "first_name": "Luis",
+    "last_name": "Johnson",
+    "phone": "435-348-0452x36700",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1207,
+    "email": "andrewmayo@example.org",
+    "first_name": "Gary",
+    "last_name": "Flores",
+    "phone": "(783)958-9831",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1208,
+    "email": "john47@example.com",
+    "first_name": "Erin",
+    "last_name": "Garcia",
+    "phone": "531.860.9711x5957",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1209,
+    "email": "georgenicholas@example.net",
+    "first_name": "Sarah",
+    "last_name": "Carroll",
+    "phone": "211.227.2092",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1210,
+    "email": "monica07@example.net",
+    "first_name": "Arthur",
+    "last_name": "Crawford",
+    "phone": "610.988.9740",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1211,
+    "email": "castillojames@example.org",
+    "first_name": "Barbara",
+    "last_name": "Gray",
+    "phone": "(298)988-7494",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1212,
+    "email": "sherrygreen@example.net",
+    "first_name": "Micheal",
+    "last_name": "Mckay",
+    "phone": "001-338-671-5861x675",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1213,
+    "email": "tylerwright@example.com",
+    "first_name": "Clarence",
+    "last_name": "Tyler",
+    "phone": "(348)489-0139",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1214,
+    "email": "collierkaren@example.com",
+    "first_name": "Valerie",
+    "last_name": "Brown",
+    "phone": "211.917.4930",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1215,
+    "email": "michael00@example.net",
+    "first_name": "Carlos",
+    "last_name": "Ortiz",
+    "phone": "001-354-355-1776",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1216,
+    "email": "mendozachristopher@example.net",
+    "first_name": "Andrew",
+    "last_name": "Anderson",
+    "phone": "536-752-2035x7418",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1217,
+    "email": "stevensdanny@example.com",
+    "first_name": "Carol",
+    "last_name": "Lopez",
+    "phone": "8516624281",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1218,
+    "email": "shanearmstrong@example.com",
+    "first_name": "Kimberly",
+    "last_name": "Smith",
+    "phone": "680.286.3849x4110",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1219,
+    "email": "tford@example.org",
+    "first_name": "Pamela",
+    "last_name": "Martin",
+    "phone": "673-906-7376",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1220,
+    "email": "keith26@example.net",
+    "first_name": "Angela",
+    "last_name": "Reyes",
+    "phone": "438-931-7448",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1221,
+    "email": "tiffanymata@example.com",
+    "first_name": "Jessica",
+    "last_name": "Harvey",
+    "phone": "001-299-277-1334x7192",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1222,
+    "email": "randygray@example.com",
+    "first_name": "Rodney",
+    "last_name": "Briggs",
+    "phone": "+1-818-479-2799x7175",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1223,
+    "email": "john57@example.org",
+    "first_name": "David",
+    "last_name": "Rice",
+    "phone": "769.837.6199",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1224,
+    "email": "fordroger@example.net",
+    "first_name": "Steven",
+    "last_name": "Palmer",
+    "phone": "001-564-958-4071",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1225,
+    "email": "barbaraconway@example.net",
+    "first_name": "Susan",
+    "last_name": "Vang",
+    "phone": "772-376-5012",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1226,
+    "email": "davidsonamanda@example.net",
+    "first_name": "Paul",
+    "last_name": "Martinez",
+    "phone": "(546)751-8395x5863",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1227,
+    "email": "molly06@example.net",
+    "first_name": "Daniel",
+    "last_name": "House",
+    "phone": "729-260-2054",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1228,
+    "email": "rjones@example.net",
+    "first_name": "Wendy",
+    "last_name": "Alexander",
+    "phone": "257-596-6037",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1229,
+    "email": "amy88@example.org",
+    "first_name": "Thomas",
+    "last_name": "Vasquez",
+    "phone": "207.700.7331x62890",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1230,
+    "email": "mmoore@example.com",
+    "first_name": "Warren",
+    "last_name": "Smith",
+    "phone": "863-854-3871",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1231,
+    "email": "robert75@example.net",
+    "first_name": "Brittany",
+    "last_name": "Johnson",
+    "phone": "8767586631",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1232,
+    "email": "danaguerrero@example.org",
+    "first_name": "Marie",
+    "last_name": "Fox",
+    "phone": "3105211266",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1233,
+    "email": "vfreeman@example.org",
+    "first_name": "Brian",
+    "last_name": "Reed",
+    "phone": "(390)959-8968",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1234,
+    "email": "jonesmatthew@example.org",
+    "first_name": "Carla",
+    "last_name": "Massey",
+    "phone": "590.669.1611x5404",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1235,
+    "email": "brendan37@example.org",
+    "first_name": "Shawn",
+    "last_name": "Frye",
+    "phone": "569-669-0745x30108",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1236,
+    "email": "peterscheryl@example.org",
+    "first_name": "Katherine",
+    "last_name": "Moore",
+    "phone": "483.880.1013",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1237,
+    "email": "johnbauer@example.net",
+    "first_name": "Stephanie",
+    "last_name": "Sexton",
+    "phone": "(863)792-5611x5603",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1238,
+    "email": "ryanhansen@example.net",
+    "first_name": "Shawn",
+    "last_name": "Jackson",
+    "phone": "(366)266-2905x41755",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1239,
+    "email": "knightadam@example.net",
+    "first_name": "Daniel",
+    "last_name": "Davis",
+    "phone": "503.576.9881",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1240,
+    "email": "jackie01@example.com",
+    "first_name": "Jacob",
+    "last_name": "Becker",
+    "phone": "483.229.2718x4272",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1241,
+    "email": "steven77@example.com",
+    "first_name": "Brendan",
+    "last_name": "Crawford",
+    "phone": "001-383-874-0711",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1242,
+    "email": "mbolton@example.com",
+    "first_name": "Jacob",
+    "last_name": "Mckinney",
+    "phone": "(390)871-9443x177",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1243,
+    "email": "flopez@example.org",
+    "first_name": "Richard",
+    "last_name": "Sullivan",
+    "phone": "+1-529-856-8429x416",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1244,
+    "email": "zbailey@example.org",
+    "first_name": "Matthew",
+    "last_name": "Alvarado",
+    "phone": "001-405-296-0062x108",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1245,
+    "email": "wongkimberly@example.com",
+    "first_name": "Scott",
+    "last_name": "Boone",
+    "phone": "001-984-290-1710x47053",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1246,
+    "email": "nharper@example.net",
+    "first_name": "Jill",
+    "last_name": "Bass",
+    "phone": "397-808-7736x532",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1247,
+    "email": "emiles@example.net",
+    "first_name": "Pamela",
+    "last_name": "Perez",
+    "phone": "497-606-5684",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1248,
+    "email": "rileymark@example.com",
+    "first_name": "Stephanie",
+    "last_name": "Jordan",
+    "phone": "001-318-302-8413x9471",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1249,
+    "email": "walkerjuan@example.org",
+    "first_name": "William",
+    "last_name": "Williams",
+    "phone": "001-713-599-6671",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1250,
+    "email": "crivers@example.org",
+    "first_name": "Jessica",
+    "last_name": "Baker",
+    "phone": "(526)283-7847x06688",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1251,
+    "email": "eric16@example.net",
+    "first_name": "Caroline",
+    "last_name": "Green",
+    "phone": "(710)541-4860x20191",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1252,
+    "email": "cschmidt@example.com",
+    "first_name": "Keith",
+    "last_name": "Jones",
+    "phone": "001-913-776-1694",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1253,
+    "email": "jnelson@example.net",
+    "first_name": "Teresa",
+    "last_name": "Taylor",
+    "phone": "3554909966",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1254,
+    "email": "clong@example.net",
+    "first_name": "Michele",
+    "last_name": "Mathews",
+    "phone": "(282)746-6638x2420",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1255,
+    "email": "ccarr@example.org",
+    "first_name": "Morgan",
+    "last_name": "Carroll",
+    "phone": "701.682.8217",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1256,
+    "email": "christinetaylor@example.com",
+    "first_name": "Ashley",
+    "last_name": "Barrett",
+    "phone": "001-270-220-0204x721",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1257,
+    "email": "tammymarks@example.com",
+    "first_name": "Kimberly",
+    "last_name": "Johnson",
+    "phone": "(425)345-4660",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1258,
+    "email": "newmantammy@example.net",
+    "first_name": "Angela",
+    "last_name": "Martin",
+    "phone": "593-695-6266x431",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1259,
+    "email": "robertsonelizabeth@example.net",
+    "first_name": "Jamie",
+    "last_name": "Cooper",
+    "phone": "308-847-8829",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1260,
+    "email": "nsullivan@example.com",
+    "first_name": "Dawn",
+    "last_name": "Pruitt",
+    "phone": "694.468.2402x396",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1261,
+    "email": "jeanne95@example.org",
+    "first_name": "Brittany",
+    "last_name": "Dunn",
+    "phone": "604-313-6048",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1262,
+    "email": "rbanks@example.com",
+    "first_name": "Whitney",
+    "last_name": "Hull",
+    "phone": "957-908-0198x3900",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1263,
+    "email": "kennethbrown@example.net",
+    "first_name": "Jaime",
+    "last_name": "Ortega",
+    "phone": "308.420.9130x697",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1264,
+    "email": "james53@example.org",
+    "first_name": "Michael",
+    "last_name": "Wright",
+    "phone": "3115791266",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1265,
+    "email": "anthony64@example.org",
+    "first_name": "Henry",
+    "last_name": "Smith",
+    "phone": "(689)695-4087x790",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1266,
+    "email": "whiteheadthomas@example.com",
+    "first_name": "Nathaniel",
+    "last_name": "Black",
+    "phone": "301.232.3946x9768",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1267,
+    "email": "bparker@example.com",
+    "first_name": "Janet",
+    "last_name": "Baker",
+    "phone": "(205)711-9344",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1268,
+    "email": "bgonzalez@example.com",
+    "first_name": "Megan",
+    "last_name": "Roberson",
+    "phone": "372.618.7975x79171",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1269,
+    "email": "woodlisa@example.net",
+    "first_name": "Joshua",
+    "last_name": "Reeves",
+    "phone": "6359323976",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1270,
+    "email": "zhangkayla@example.org",
+    "first_name": "Natalie",
+    "last_name": "Price",
+    "phone": "772-778-3081",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1271,
+    "email": "palvarez@example.com",
+    "first_name": "Larry",
+    "last_name": "Baldwin",
+    "phone": "217.317.9863x080",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1272,
+    "email": "arasmussen@example.net",
+    "first_name": "Cynthia",
+    "last_name": "Jackson",
+    "phone": "+1-809-513-3173x013",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1273,
+    "email": "amanda68@example.org",
+    "first_name": "Joseph",
+    "last_name": "Wade",
+    "phone": "787.712.7606x4234",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1274,
+    "email": "ortizhunter@example.net",
+    "first_name": "Sean",
+    "last_name": "Davis",
+    "phone": "817.283.7949x215",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1275,
+    "email": "moonkristy@example.org",
+    "first_name": "Adrian",
+    "last_name": "Johnson",
+    "phone": "(908)775-6357",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1276,
+    "email": "taylorjohn@example.com",
+    "first_name": "Molly",
+    "last_name": "Cooper",
+    "phone": "001-968-241-5887x4899",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1277,
+    "email": "bakerkenneth@example.net",
+    "first_name": "Janice",
+    "last_name": "Romero",
+    "phone": "+1-937-571-9485x93236",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1278,
+    "email": "taylor20@example.net",
+    "first_name": "Jacob",
+    "last_name": "Brown",
+    "phone": "886.615.6108",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1279,
+    "email": "yfowler@example.com",
+    "first_name": "Jean",
+    "last_name": "Rodgers",
+    "phone": "4109922045",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1280,
+    "email": "lindavasquez@example.com",
+    "first_name": "Michelle",
+    "last_name": "Lopez",
+    "phone": "(457)454-0901",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1281,
+    "email": "pirwin@example.org",
+    "first_name": "Brian",
+    "last_name": "Leach",
+    "phone": "001-586-269-2679x99967",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1282,
+    "email": "thomascathy@example.com",
+    "first_name": "Zachary",
+    "last_name": "Turner",
+    "phone": "(843)608-3640x07672",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1283,
+    "email": "hmoore@example.net",
+    "first_name": "Benjamin",
+    "last_name": "Ramirez",
+    "phone": "+1-299-729-3229",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1284,
+    "email": "jonesjared@example.net",
+    "first_name": "Brandon",
+    "last_name": "Taylor",
+    "phone": "001-267-960-2178x1566",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1285,
+    "email": "ycooper@example.net",
+    "first_name": "Tricia",
+    "last_name": "Lopez",
+    "phone": "506-895-6715",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1286,
+    "email": "annettehiggins@example.com",
+    "first_name": "Amy",
+    "last_name": "Frey",
+    "phone": "458.617.4213x610",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1287,
+    "email": "gonzalesmichael@example.com",
+    "first_name": "Andrew",
+    "last_name": "Reed",
+    "phone": "3339008524",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1288,
+    "email": "adamware@example.org",
+    "first_name": "Rachel",
+    "last_name": "Quinn",
+    "phone": "001-895-974-7010x30531",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1289,
+    "email": "deniseolson@example.net",
+    "first_name": "Tamara",
+    "last_name": "Duran",
+    "phone": "929-838-2563x0104",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1290,
+    "email": "moorejacqueline@example.com",
+    "first_name": "Madison",
+    "last_name": "Gross",
+    "phone": "878.733.6668x66965",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1291,
+    "email": "michellegarcia@example.net",
+    "first_name": "Craig",
+    "last_name": "Brown",
+    "phone": "8716946910",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1292,
+    "email": "haleybell@example.com",
+    "first_name": "Scott",
+    "last_name": "Johns",
+    "phone": "467.556.3404x7445",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1293,
+    "email": "santiagokatelyn@example.net",
+    "first_name": "Elizabeth",
+    "last_name": "Thomas",
+    "phone": "+1-489-882-6815x2816",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1294,
+    "email": "bryantgloria@example.org",
+    "first_name": "Mary",
+    "last_name": "Merritt",
+    "phone": "440.413.9212x395",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1295,
+    "email": "william45@example.net",
+    "first_name": "Teresa",
+    "last_name": "Logan",
+    "phone": "001-495-281-5180",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1296,
+    "email": "dwilson@example.com",
+    "first_name": "Charles",
+    "last_name": "Brown",
+    "phone": "842.267.6451x9994",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1297,
+    "email": "josephmiller@example.com",
+    "first_name": "Justin",
+    "last_name": "Baird",
+    "phone": "897-942-9365x60822",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1298,
+    "email": "margaretmay@example.com",
+    "first_name": "Cory",
+    "last_name": "Barber",
+    "phone": "+1-290-655-5820x71535",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1299,
+    "email": "asparks@example.org",
+    "first_name": "John",
+    "last_name": "Garza",
+    "phone": "(719)754-2008",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1300,
+    "email": "wharris@example.org",
+    "first_name": "Stephen",
+    "last_name": "Marshall",
+    "phone": "(339)310-4449x391",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1301,
+    "email": "kathryn99@example.net",
+    "first_name": "Ashley",
+    "last_name": "Mccarthy",
+    "phone": "(882)981-8317x658",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1302,
+    "email": "calderonlaura@example.com",
+    "first_name": "Jason",
+    "last_name": "Nelson",
+    "phone": "+1-213-265-9222",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1303,
+    "email": "smartinez@example.com",
+    "first_name": "Lori",
+    "last_name": "Wright",
+    "phone": "516.961.9903x4455",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1304,
+    "email": "jennifer88@example.net",
+    "first_name": "Nathaniel",
+    "last_name": "Martinez",
+    "phone": "(799)886-2663x1377",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1305,
+    "email": "kimherring@example.net",
+    "first_name": "Eric",
+    "last_name": "Green",
+    "phone": "(797)485-5370x195",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1306,
+    "email": "veronica48@example.org",
+    "first_name": "Christopher",
+    "last_name": "Flores",
+    "phone": "317.867.4792x12898",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1307,
+    "email": "youngtyler@example.com",
+    "first_name": "Julia",
+    "last_name": "Jones",
+    "phone": "551-534-6845x0156",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1308,
+    "email": "kmichael@example.net",
+    "first_name": "Maria",
+    "last_name": "Sanchez",
+    "phone": "+1-391-252-9652",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1309,
+    "email": "kleinbrenda@example.org",
+    "first_name": "Emily",
+    "last_name": "Young",
+    "phone": "+1-465-332-2512x7640",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1310,
+    "email": "tstewart@example.org",
+    "first_name": "Natasha",
+    "last_name": "Chavez",
+    "phone": "(634)405-6374x263",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1311,
+    "email": "jamieadkins@example.org",
+    "first_name": "Stefanie",
+    "last_name": "Carter",
+    "phone": "001-830-543-8658",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1312,
+    "email": "yanderson@example.com",
+    "first_name": "Julia",
+    "last_name": "Dennis",
+    "phone": "(753)835-3699x747",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1313,
+    "email": "michaelwilliams@example.org",
+    "first_name": "Daniel",
+    "last_name": "Green",
+    "phone": "732.529.8289x16834",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1314,
+    "email": "millermariah@example.com",
+    "first_name": "Chad",
+    "last_name": "Hoffman",
+    "phone": "814.285.0106",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1315,
+    "email": "jameswright@example.net",
+    "first_name": "Jonathan",
+    "last_name": "Anderson",
+    "phone": "+1-723-539-2617x189",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1316,
+    "email": "margaretgregory@example.com",
+    "first_name": "Jessica",
+    "last_name": "Ware",
+    "phone": "+1-954-538-1577",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1317,
+    "email": "gpayne@example.com",
+    "first_name": "David",
+    "last_name": "Randall",
+    "phone": "(513)953-6130x629",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1318,
+    "email": "kennethsantos@example.org",
+    "first_name": "Peter",
+    "last_name": "Williams",
+    "phone": "001-917-552-3009x208",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1319,
+    "email": "robert11@example.com",
+    "first_name": "Steven",
+    "last_name": "Baker",
+    "phone": "350-630-4137x0757",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1320,
+    "email": "ellenvincent@example.net",
+    "first_name": "Michael",
+    "last_name": "Harris",
+    "phone": "213-901-8501x5942",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1321,
+    "email": "tjohnson@example.org",
+    "first_name": "Walter",
+    "last_name": "Roberts",
+    "phone": "756-365-5857",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1322,
+    "email": "barbara84@example.org",
+    "first_name": "Charles",
+    "last_name": "Mooney",
+    "phone": "843.223.1170x951",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1323,
+    "email": "ashleyhernandez@example.net",
+    "first_name": "Sarah",
+    "last_name": "Williams",
+    "phone": "763.342.7466",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1324,
+    "email": "sanderscory@example.net",
+    "first_name": "Phillip",
+    "last_name": "Coleman",
+    "phone": "(885)906-2228",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1325,
+    "email": "david32@example.com",
+    "first_name": "Kirsten",
+    "last_name": "Ruiz",
+    "phone": "372.525.4627x007",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1326,
+    "email": "adamruiz@example.com",
+    "first_name": "Timothy",
+    "last_name": "Black",
+    "phone": "(398)734-0178x908",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1327,
+    "email": "cookguy@example.net",
+    "first_name": "Brett",
+    "last_name": "Stephens",
+    "phone": "472.547.9382x8827",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1328,
+    "email": "brandon29@example.org",
+    "first_name": "Anthony",
+    "last_name": "Huff",
+    "phone": "410-321-6599x922",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1329,
+    "email": "ashleyjohnson@example.org",
+    "first_name": "Alan",
+    "last_name": "Murray",
+    "phone": "414-553-2116",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1330,
+    "email": "jessicacarroll@example.com",
+    "first_name": "Jennifer",
+    "last_name": "Harris",
+    "phone": "508-978-2127x294",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1331,
+    "email": "sheakevin@example.org",
+    "first_name": "Julia",
+    "last_name": "Torres",
+    "phone": "(648)273-3241",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1332,
+    "email": "tschmidt@example.net",
+    "first_name": "Denise",
+    "last_name": "Hicks",
+    "phone": "(289)686-8908x603",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1333,
+    "email": "thomas03@example.org",
+    "first_name": "Stephen",
+    "last_name": "Cooper",
+    "phone": "473.690.1634x28013",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1334,
+    "email": "april70@example.net",
+    "first_name": "Jacqueline",
+    "last_name": "Smith",
+    "phone": "+1-488-594-2913x391",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1335,
+    "email": "patricialopez@example.net",
+    "first_name": "Roy",
+    "last_name": "Wallace",
+    "phone": "001-771-823-9093",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1336,
+    "email": "michaelfisher@example.org",
+    "first_name": "Gary",
+    "last_name": "Wolfe",
+    "phone": "807-700-2644x1820",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1337,
+    "email": "allison25@example.com",
+    "first_name": "Luis",
+    "last_name": "Smith",
+    "phone": "960-924-7555",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1338,
+    "email": "dana39@example.org",
+    "first_name": "Jennifer",
+    "last_name": "Cuevas",
+    "phone": "4276681092",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1339,
+    "email": "amanda49@example.net",
+    "first_name": "Pedro",
+    "last_name": "Bishop",
+    "phone": "789-339-6583x15222",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1340,
+    "email": "williamgarrison@example.net",
+    "first_name": "Jennifer",
+    "last_name": "Lawrence",
+    "phone": "549-822-2346x304",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1341,
+    "email": "nicole01@example.org",
+    "first_name": "Phyllis",
+    "last_name": "Johnson",
+    "phone": "790-635-1665x6972",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1342,
+    "email": "andrea14@example.org",
+    "first_name": "Alexa",
+    "last_name": "Perry",
+    "phone": "+1-916-439-0906x959",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1343,
+    "email": "perezjay@example.com",
+    "first_name": "James",
+    "last_name": "Jennings",
+    "phone": "874-794-2140",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1344,
+    "email": "daniel47@example.org",
+    "first_name": "Jonathan",
+    "last_name": "Johnson",
+    "phone": "+1-778-740-8248x8107",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1345,
+    "email": "psandoval@example.net",
+    "first_name": "Isaiah",
+    "last_name": "Walsh",
+    "phone": "826-924-2095",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1346,
+    "email": "phelpstina@example.net",
+    "first_name": "Nicole",
+    "last_name": "Lawson",
+    "phone": "001-520-346-0154x344",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1347,
+    "email": "woodgina@example.net",
+    "first_name": "Maria",
+    "last_name": "Jones",
+    "phone": "221.213.5513",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1348,
+    "email": "alisharogers@example.org",
+    "first_name": "Justin",
+    "last_name": "Potter",
+    "phone": "001-645-326-7273",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1349,
+    "email": "timothy34@example.org",
+    "first_name": "Kevin",
+    "last_name": "Lindsey",
+    "phone": "884-345-3803x3602",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1350,
+    "email": "russellhutchinson@example.com",
+    "first_name": "Alison",
+    "last_name": "Doyle",
+    "phone": "460.228.3697",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1351,
+    "email": "tammysimmons@example.net",
+    "first_name": "Susan",
+    "last_name": "Hartman",
+    "phone": "270.242.9566",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1352,
+    "email": "tbrowning@example.net",
+    "first_name": "Nichole",
+    "last_name": "Silva",
+    "phone": "(595)207-7936x63874",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1353,
+    "email": "webbjulie@example.org",
+    "first_name": "Ethan",
+    "last_name": "Harding",
+    "phone": "5663829217",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1354,
+    "email": "raymondwright@example.org",
+    "first_name": "Michelle",
+    "last_name": "Armstrong",
+    "phone": "001-986-789-7445x561",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1355,
+    "email": "madeline83@example.net",
+    "first_name": "Holly",
+    "last_name": "Edwards",
+    "phone": "+1-996-943-3982x779",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1356,
+    "email": "blevinsnicholas@example.com",
+    "first_name": "Kimberly",
+    "last_name": "Leach",
+    "phone": "+1-261-283-9133x8441",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1357,
+    "email": "franklindavid@example.org",
+    "first_name": "Mark",
+    "last_name": "Simon",
+    "phone": "(535)925-9909x973",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1358,
+    "email": "carlos84@example.com",
+    "first_name": "Jeff",
+    "last_name": "Evans",
+    "phone": "(817)672-1850x23139",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1359,
+    "email": "johnsonlarry@example.net",
+    "first_name": "Nicole",
+    "last_name": "Mejia",
+    "phone": "508-472-8807",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1360,
+    "email": "rsmith@example.com",
+    "first_name": "Stacie",
+    "last_name": "Barron",
+    "phone": "327.722.9677x45764",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1361,
+    "email": "gmaxwell@example.com",
+    "first_name": "Max",
+    "last_name": "Reyes",
+    "phone": "335.995.0945",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1362,
+    "email": "matthewlopez@example.com",
+    "first_name": "Lance",
+    "last_name": "Coleman",
+    "phone": "962.906.9261x974",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1363,
+    "email": "huangnicole@example.net",
+    "first_name": "Gary",
+    "last_name": "Parker",
+    "phone": "574.622.4937x43413",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1364,
+    "email": "htaylor@example.org",
+    "first_name": "Anthony",
+    "last_name": "Serrano",
+    "phone": "001-617-951-3306x7374",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1365,
+    "email": "gibarra@example.com",
+    "first_name": "Joseph",
+    "last_name": "Jones",
+    "phone": "(812)360-6608x6785",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1366,
+    "email": "vbailey@example.org",
+    "first_name": "Brian",
+    "last_name": "Hammond",
+    "phone": "+1-679-995-3192",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1367,
+    "email": "chapmanmario@example.com",
+    "first_name": "Michael",
+    "last_name": "Perez",
+    "phone": "+1-233-640-2477x920",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1368,
+    "email": "steven95@example.org",
+    "first_name": "Chad",
+    "last_name": "Carter",
+    "phone": "700-479-7098x4781",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1369,
+    "email": "lindsay75@example.net",
+    "first_name": "Christopher",
+    "last_name": "Lopez",
+    "phone": "5652403130",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1370,
+    "email": "rossbrianna@example.net",
+    "first_name": "Carlos",
+    "last_name": "Adams",
+    "phone": "(538)854-1474x86008",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1371,
+    "email": "rachel45@example.org",
+    "first_name": "Megan",
+    "last_name": "Ballard",
+    "phone": "+1-405-903-3802",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1372,
+    "email": "ibradford@example.net",
+    "first_name": "Patricia",
+    "last_name": "Smith",
+    "phone": "974-762-0150",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1373,
+    "email": "amyspencer@example.net",
+    "first_name": "Timothy",
+    "last_name": "Carr",
+    "phone": "623.341.4342",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1374,
+    "email": "ramseycharles@example.com",
+    "first_name": "Edwin",
+    "last_name": "Marquez",
+    "phone": "001-241-992-9130x03019",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1375,
+    "email": "amanda76@example.com",
+    "first_name": "Amanda",
+    "last_name": "Stevens",
+    "phone": "6802823492",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1376,
+    "email": "sallymorris@example.com",
+    "first_name": "Stephen",
+    "last_name": "Flores",
+    "phone": "3982462391",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1377,
+    "email": "hpowell@example.com",
+    "first_name": "Shannon",
+    "last_name": "James",
+    "phone": "+1-542-630-7803x45818",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1378,
+    "email": "makaylawalker@example.org",
+    "first_name": "Shane",
+    "last_name": "Kirk",
+    "phone": "(366)659-9944x52936",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1379,
+    "email": "tyleradams@example.com",
+    "first_name": "Teresa",
+    "last_name": "Reid",
+    "phone": "607.527.2318x56046",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1380,
+    "email": "victor27@example.net",
+    "first_name": "Scott",
+    "last_name": "Kennedy",
+    "phone": "437.576.0292x9600",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1381,
+    "email": "christopher10@example.com",
+    "first_name": "Michael",
+    "last_name": "Roth",
+    "phone": "001-580-677-3523x59486",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1382,
+    "email": "kellyann@example.net",
+    "first_name": "Logan",
+    "last_name": "Sosa",
+    "phone": "949-644-1497x39216",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1383,
+    "email": "idavies@example.net",
+    "first_name": "William",
+    "last_name": "Jacobs",
+    "phone": "+1-704-353-2026x088",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1384,
+    "email": "lauren98@example.net",
+    "first_name": "Elizabeth",
+    "last_name": "Ellison",
+    "phone": "+1-510-367-8635x33895",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1385,
+    "email": "barnettoscar@example.net",
+    "first_name": "Heather",
+    "last_name": "Finley",
+    "phone": "808.811.5014x9256",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1386,
+    "email": "rachelwalls@example.net",
+    "first_name": "Marissa",
+    "last_name": "Garza",
+    "phone": "620.715.3882",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1387,
+    "email": "lewiseric@example.org",
+    "first_name": "Emily",
+    "last_name": "Lee",
+    "phone": "326-608-4807x70714",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1388,
+    "email": "ronald62@example.net",
+    "first_name": "Martha",
+    "last_name": "Walker",
+    "phone": "001-658-624-5890",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1389,
+    "email": "cdeleon@example.org",
+    "first_name": "Angela",
+    "last_name": "Baker",
+    "phone": "+1-364-229-8020x69992",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1390,
+    "email": "dukesteven@example.com",
+    "first_name": "Tanya",
+    "last_name": "Mendez",
+    "phone": "001-748-641-8025x23200",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1391,
+    "email": "kmccoy@example.net",
+    "first_name": "Lindsay",
+    "last_name": "Marshall",
+    "phone": "945-207-6857",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1392,
+    "email": "dylanchandler@example.net",
+    "first_name": "Kelly",
+    "last_name": "Frank",
+    "phone": "884.838.6712x921",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1393,
+    "email": "wesleytaylor@example.com",
+    "first_name": "Stephanie",
+    "last_name": "Deleon",
+    "phone": "646.730.7597x4165",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1394,
+    "email": "gacosta@example.com",
+    "first_name": "Susan",
+    "last_name": "Stewart",
+    "phone": "343.861.1329",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1395,
+    "email": "andreasanchez@example.com",
+    "first_name": "Ana",
+    "last_name": "Hernandez",
+    "phone": "546.822.2214",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1396,
+    "email": "gharrington@example.com",
+    "first_name": "Jason",
+    "last_name": "Gray",
+    "phone": "001-472-878-4857",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1397,
+    "email": "mooreapril@example.net",
+    "first_name": "Erika",
+    "last_name": "Mclean",
+    "phone": "720-719-9096",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1398,
+    "email": "gregory99@example.com",
+    "first_name": "Justin",
+    "last_name": "Ryan",
+    "phone": "+1-245-200-1829x9940",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1399,
+    "email": "llynn@example.net",
+    "first_name": "Christopher",
+    "last_name": "Ramos",
+    "phone": "887.851.1318x135",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1400,
+    "email": "richardlopez@example.com",
+    "first_name": "Dalton",
+    "last_name": "Williams",
+    "phone": "(751)536-2123x22486",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1401,
+    "email": "patricia08@example.com",
+    "first_name": "Ryan",
+    "last_name": "Moore",
+    "phone": "001-795-525-8002x1376",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1402,
+    "email": "brandon79@example.com",
+    "first_name": "Carrie",
+    "last_name": "Mcclain",
+    "phone": "+1-309-985-8465",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1403,
+    "email": "dblevins@example.net",
+    "first_name": "Jennifer",
+    "last_name": "Moore",
+    "phone": "(896)231-0535x49132",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1404,
+    "email": "mooremichael@example.com",
+    "first_name": "Christopher",
+    "last_name": "Cantrell",
+    "phone": "001-790-803-3766x2241",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1405,
+    "email": "whiterhonda@example.net",
+    "first_name": "Teresa",
+    "last_name": "Young",
+    "phone": "223.452.1304",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1406,
+    "email": "shaun35@example.org",
+    "first_name": "Maria",
+    "last_name": "Nelson",
+    "phone": "208.862.5060x814",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1407,
+    "email": "ldixon@example.com",
+    "first_name": "Gary",
+    "last_name": "Jackson",
+    "phone": "8025044624",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1408,
+    "email": "mmartinez@example.net",
+    "first_name": "Ariel",
+    "last_name": "Rice",
+    "phone": "001-289-380-7654x809",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1409,
+    "email": "erinjohnson@example.net",
+    "first_name": "Alexander",
+    "last_name": "Moore",
+    "phone": "001-308-974-4807",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1410,
+    "email": "johnhuber@example.net",
+    "first_name": "Annette",
+    "last_name": "Johnson",
+    "phone": "334.347.4375x6128",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1411,
+    "email": "lewisebony@example.org",
+    "first_name": "Wayne",
+    "last_name": "Carr",
+    "phone": "001-960-228-1586x723",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1412,
+    "email": "johnwest@example.net",
+    "first_name": "Angela",
+    "last_name": "Smith",
+    "phone": "3688297153",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1413,
+    "email": "kwilliams@example.org",
+    "first_name": "William",
+    "last_name": "Wallace",
+    "phone": "(485)896-8005",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1414,
+    "email": "asilva@example.net",
+    "first_name": "Frederick",
+    "last_name": "Lara",
+    "phone": "+1-458-232-8097x2547",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1415,
+    "email": "jason72@example.com",
+    "first_name": "Jason",
+    "last_name": "Meyer",
+    "phone": "3346190119",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1416,
+    "email": "mgriffith@example.net",
+    "first_name": "Judy",
+    "last_name": "Mcconnell",
+    "phone": "980.593.3146",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1417,
+    "email": "kathryncasey@example.org",
+    "first_name": "Fred",
+    "last_name": "Smith",
+    "phone": "(760)500-6497",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1418,
+    "email": "brandolph@example.net",
+    "first_name": "Jason",
+    "last_name": "Welch",
+    "phone": "323.260.5390",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1419,
+    "email": "ostewart@example.com",
+    "first_name": "Jorge",
+    "last_name": "Gonzales",
+    "phone": "(594)689-6150x83033",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1420,
+    "email": "mullinssarah@example.net",
+    "first_name": "Caleb",
+    "last_name": "Campos",
+    "phone": "(281)253-7545",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1421,
+    "email": "jodijohnson@example.com",
+    "first_name": "Kyle",
+    "last_name": "King",
+    "phone": "782-470-4811x568",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1422,
+    "email": "zacharyturner@example.com",
+    "first_name": "Christian",
+    "last_name": "Martin",
+    "phone": "968-630-8749",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1423,
+    "email": "mcarson@example.com",
+    "first_name": "Christina",
+    "last_name": "Weaver",
+    "phone": "+1-855-647-6627x301",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1424,
+    "email": "rebeccarodriguez@example.com",
+    "first_name": "Ryan",
+    "last_name": "Briggs",
+    "phone": "334.345.3744",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1425,
+    "email": "justin27@example.net",
+    "first_name": "Nathan",
+    "last_name": "Wang",
+    "phone": "(366)779-5030x236",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1426,
+    "email": "vancejocelyn@example.net",
+    "first_name": "Jessica",
+    "last_name": "Long",
+    "phone": "418.794.4909",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1427,
+    "email": "crystalblanchard@example.org",
+    "first_name": "Belinda",
+    "last_name": "Page",
+    "phone": "001-418-274-2057x5274",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1428,
+    "email": "boonetony@example.net",
+    "first_name": "Robert",
+    "last_name": "Carter",
+    "phone": "+1-260-998-3981x870",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1429,
+    "email": "wayneaguilar@example.com",
+    "first_name": "Darrell",
+    "last_name": "Gonzales",
+    "phone": "(797)228-7314",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1430,
+    "email": "dsharp@example.org",
+    "first_name": "Emma",
+    "last_name": "Brock",
+    "phone": "+1-658-567-1874x5323",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1431,
+    "email": "jameslynch@example.com",
+    "first_name": "Robert",
+    "last_name": "Kline",
+    "phone": "365.439.9580x24554",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1432,
+    "email": "zachary14@example.org",
+    "first_name": "Claire",
+    "last_name": "Huff",
+    "phone": "340-392-1471",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1433,
+    "email": "smithmargaret@example.org",
+    "first_name": "Kathy",
+    "last_name": "Stafford",
+    "phone": "(730)373-8009",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1434,
+    "email": "vhuynh@example.net",
+    "first_name": "Robert",
+    "last_name": "Johnston",
+    "phone": "332-323-1708",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1435,
+    "email": "christineramos@example.org",
+    "first_name": "Joseph",
+    "last_name": "Miller",
+    "phone": "(990)364-6849",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1436,
+    "email": "usimmons@example.org",
+    "first_name": "Cory",
+    "last_name": "Jacobson",
+    "phone": "807.415.8813",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1437,
+    "email": "mcaldwell@example.com",
+    "first_name": "Isaac",
+    "last_name": "Alexander",
+    "phone": "001-234-550-1098x917",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1438,
+    "email": "hflores@example.com",
+    "first_name": "Sarah",
+    "last_name": "Miller",
+    "phone": "226.216.2182x045",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1439,
+    "email": "jordan71@example.net",
+    "first_name": "Jonathon",
+    "last_name": "Smith",
+    "phone": "+1-390-214-1011",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1440,
+    "email": "burgesscarlos@example.net",
+    "first_name": "Ricardo",
+    "last_name": "Douglas",
+    "phone": "7808128400",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1441,
+    "email": "crawfordkristy@example.com",
+    "first_name": "Caleb",
+    "last_name": "Young",
+    "phone": "+1-776-401-2080x544",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1442,
+    "email": "stevensantos@example.com",
+    "first_name": "Tyler",
+    "last_name": "Smith",
+    "phone": "001-796-734-4471",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1443,
+    "email": "thomasapril@example.org",
+    "first_name": "Barry",
+    "last_name": "Brown",
+    "phone": "(526)716-5049",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1444,
+    "email": "ralvarez@example.com",
+    "first_name": "Tracy",
+    "last_name": "Everett",
+    "phone": "219-618-5779",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1445,
+    "email": "levans@example.com",
+    "first_name": "Michael",
+    "last_name": "Smith",
+    "phone": "001-922-222-2138x5409",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1446,
+    "email": "curtismoreno@example.org",
+    "first_name": "Monica",
+    "last_name": "Wilson",
+    "phone": "(239)242-6732x8735",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1447,
+    "email": "lisamoore@example.net",
+    "first_name": "Katherine",
+    "last_name": "Wright",
+    "phone": "519-920-8913",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1448,
+    "email": "ericdodson@example.org",
+    "first_name": "Steve",
+    "last_name": "Graves",
+    "phone": "692-833-8118",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1449,
+    "email": "wyattpatricia@example.org",
+    "first_name": "Amy",
+    "last_name": "Wilson",
+    "phone": "472.985.6171x1198",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1450,
+    "email": "martinamber@example.com",
+    "first_name": "John",
+    "last_name": "Guerra",
+    "phone": "001-580-779-9666x99918",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1451,
+    "email": "scott30@example.net",
+    "first_name": "Tanya",
+    "last_name": "Hayden",
+    "phone": "559-883-4210x04756",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1452,
+    "email": "wilkinsonvincent@example.net",
+    "first_name": "Steven",
+    "last_name": "Williams",
+    "phone": "(591)368-4272",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1453,
+    "email": "castrocharles@example.net",
+    "first_name": "David",
+    "last_name": "Reed",
+    "phone": "471-723-4795",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1454,
+    "email": "rturner@example.org",
+    "first_name": "Richard",
+    "last_name": "Parker",
+    "phone": "+1-525-652-9389x1176",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1455,
+    "email": "anthonyphilip@example.org",
+    "first_name": "Ryan",
+    "last_name": "Davis",
+    "phone": "616.827.8125x88248",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1456,
+    "email": "christopher71@example.com",
+    "first_name": "Amy",
+    "last_name": "Perez",
+    "phone": "495.354.7467x0225",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1457,
+    "email": "whitejohn@example.org",
+    "first_name": "Christine",
+    "last_name": "Thomas",
+    "phone": "313-866-4582x878",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1458,
+    "email": "kmiller@example.org",
+    "first_name": "Michael",
+    "last_name": "Smith",
+    "phone": "+1-893-695-3510x083",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1459,
+    "email": "zsaunders@example.org",
+    "first_name": "Robert",
+    "last_name": "Stokes",
+    "phone": "760-983-0717x7840",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1460,
+    "email": "sarahvincent@example.net",
+    "first_name": "Chase",
+    "last_name": "Day",
+    "phone": "753-279-0603",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1461,
+    "email": "michael87@example.org",
+    "first_name": "Leslie",
+    "last_name": "Montgomery",
+    "phone": "(577)857-9329x4821",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1462,
+    "email": "michaelhughes@example.com",
+    "first_name": "James",
+    "last_name": "Collins",
+    "phone": "001-866-330-4295x4204",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1463,
+    "email": "csmith@example.net",
+    "first_name": "Lori",
+    "last_name": "Doyle",
+    "phone": "881.498.4072x1341",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1464,
+    "email": "rmatthews@example.org",
+    "first_name": "Julie",
+    "last_name": "Spencer",
+    "phone": "+1-740-337-6739x762",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1465,
+    "email": "yibarra@example.net",
+    "first_name": "Benjamin",
+    "last_name": "Conley",
+    "phone": "+1-760-463-8178",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1466,
+    "email": "patrickmoore@example.org",
+    "first_name": "Michael",
+    "last_name": "Petersen",
+    "phone": "001-443-587-3142x18024",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1467,
+    "email": "danielreese@example.org",
+    "first_name": "Dwayne",
+    "last_name": "Herring",
+    "phone": "+1-282-632-6659x20624",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1468,
+    "email": "baileymaria@example.com",
+    "first_name": "Amy",
+    "last_name": "Richards",
+    "phone": "867-714-8275x8761",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1469,
+    "email": "iharris@example.org",
+    "first_name": "Larry",
+    "last_name": "Daugherty",
+    "phone": "(800)354-6034",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1470,
+    "email": "medinadakota@example.com",
+    "first_name": "Ryan",
+    "last_name": "Cox",
+    "phone": "930.570.3528",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1471,
+    "email": "sherylterry@example.net",
+    "first_name": "Rachel",
+    "last_name": "Dunlap",
+    "phone": "001-732-261-9504x20442",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1472,
+    "email": "wmadden@example.com",
+    "first_name": "Jose",
+    "last_name": "Duncan",
+    "phone": "995-687-7039",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1473,
+    "email": "rubencain@example.com",
+    "first_name": "Zachary",
+    "last_name": "Craig",
+    "phone": "+1-615-252-7565",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1474,
+    "email": "davispeter@example.net",
+    "first_name": "Patricia",
+    "last_name": "Brown",
+    "phone": "+1-788-540-8183x13446",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1475,
+    "email": "allen05@example.net",
+    "first_name": "Jennifer",
+    "last_name": "Martin",
+    "phone": "939.461.5463x400",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1476,
+    "email": "ohawkins@example.com",
+    "first_name": "Laura",
+    "last_name": "Owens",
+    "phone": "+1-713-437-5679x21689",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1477,
+    "email": "ytaylor@example.com",
+    "first_name": "Sean",
+    "last_name": "Davis",
+    "phone": "(780)673-0430x3860",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1478,
+    "email": "sanderschristopher@example.net",
+    "first_name": "Stephanie",
+    "last_name": "Cruz",
+    "phone": "001-601-782-5789",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1479,
+    "email": "powersvincent@example.org",
+    "first_name": "Brandon",
+    "last_name": "Davis",
+    "phone": "(678)537-3725",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1480,
+    "email": "angela40@example.net",
+    "first_name": "Sue",
+    "last_name": "Ferguson",
+    "phone": "464-387-8998x24237",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1481,
+    "email": "kentjim@example.net",
+    "first_name": "Martin",
+    "last_name": "Hernandez",
+    "phone": "(246)462-6702",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1482,
+    "email": "tclarke@example.com",
+    "first_name": "Tracy",
+    "last_name": "Williams",
+    "phone": "+1-397-560-2055x29101",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1483,
+    "email": "tammystewart@example.net",
+    "first_name": "Emily",
+    "last_name": "Levy",
+    "phone": "001-579-503-7810x501",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1484,
+    "email": "beckyperkins@example.org",
+    "first_name": "Amanda",
+    "last_name": "Randall",
+    "phone": "001-623-968-2729x7407",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1485,
+    "email": "anne75@example.org",
+    "first_name": "Thomas",
+    "last_name": "Reid",
+    "phone": "001-554-313-5923x48575",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1486,
+    "email": "oday@example.net",
+    "first_name": "Stacy",
+    "last_name": "Osborne",
+    "phone": "344.593.1790",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1487,
+    "email": "gonzalezjohnny@example.net",
+    "first_name": "Thomas",
+    "last_name": "Rivera",
+    "phone": "(694)821-6343x09104",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1488,
+    "email": "ihaynes@example.net",
+    "first_name": "Richard",
+    "last_name": "Parker",
+    "phone": "+1-747-276-8265x9305",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1489,
+    "email": "pcollins@example.com",
+    "first_name": "Zachary",
+    "last_name": "Hunt",
+    "phone": "863.362.5376",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1490,
+    "email": "jason29@example.com",
+    "first_name": "Kevin",
+    "last_name": "Tyler",
+    "phone": "001-904-967-6598x8800",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1491,
+    "email": "savannah49@example.net",
+    "first_name": "Jessica",
+    "last_name": "Edwards",
+    "phone": "339-758-6084x9989",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1492,
+    "email": "parkdebbie@example.com",
+    "first_name": "Morgan",
+    "last_name": "Barnes",
+    "phone": "(310)890-3505x442",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1493,
+    "email": "russellralph@example.net",
+    "first_name": "William",
+    "last_name": "Phillips",
+    "phone": "+1-947-869-7835",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1494,
+    "email": "russelllaura@example.net",
+    "first_name": "Mary",
+    "last_name": "Wood",
+    "phone": "001-660-760-1363x14001",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1495,
+    "email": "walterslindsey@example.net",
+    "first_name": "Alicia",
+    "last_name": "Knapp",
+    "phone": "001-341-713-2580x8491",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1496,
+    "email": "simslynn@example.net",
+    "first_name": "Richard",
+    "last_name": "Torres",
+    "phone": "760-757-8016",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1497,
+    "email": "perezdiana@example.org",
+    "first_name": "Megan",
+    "last_name": "Martin",
+    "phone": "(900)786-0072x21724",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1498,
+    "email": "jennifer06@example.com",
+    "first_name": "Kevin",
+    "last_name": "Lee",
+    "phone": "902.506.5567x9456",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1499,
+    "email": "coxjoseph@example.com",
+    "first_name": "Lawrence",
+    "last_name": "Bass",
+    "phone": "229-426-2566",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  },
+  {
+    "customer_id": 1500,
+    "email": "swoods@example.com",
+    "first_name": "Angela",
+    "last_name": "Collier",
+    "phone": "001-595-800-4949x75953",
+    "status": "ACTIVE",
+    "created_at": "2025-11-20 22:29:09.674491",
+    "updated_at": "2025-11-20 22:29:09.674491"
+  }
+]
