@@ -18,7 +18,30 @@ STATUSES_ORDER = ["CREATED", "PAID", "SHIPPED", "DELIVERED", "CANCELLED"]
 STATUSES_PAYMENT = ["INITIATED", "SUCCESS", "FAILED"]
 STATUSES_SHIPMENT = ["CREATED", "IN_TRANSIT", "DELIVERED"]
 
+# Real email domains
+EMAIL_DOMAINS = [
+    "gmail.com", "outlook.com", "hotmail.com", "yahoo.com", 
+    "icloud.com", "protonmail.com", "aol.com", "mail.com"
+]
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+
+def generate_email():
+    """Generate email with real domain"""
+    username = fake.user_name()
+    domain = random.choice(EMAIL_DOMAINS)
+    return f"{username}@{domain}"
+
+
+def generate_phone():
+    """Generate phone in consistent format"""
+    # Format: +XX XXX XXX XXX
+    country_code = random.choice([1, 44, 48, 49, 33, 39])  # US, UK, PL, DE, FR, IT
+    area = random.randint(100, 999)
+    first = random.randint(100, 999)
+    second = random.randint(100, 999)
+    return f"+{country_code} {area} {first} {second}"
 
 
 def write_json(folder, filename, data):
@@ -189,10 +212,10 @@ for batch in range(1, BATCHES + 1):
     for i in range(CUSTOMERS_PER_BATCH):
         batch_customers.append({
             "customer_id": customer_id_seq,
-            "email": fake.email(),
+            "email": generate_email(),
             "first_name": fake.first_name(),
             "last_name": fake.last_name(),
-            "phone": fake.phone_number(),
+            "phone": generate_phone(),
             "status": "ACTIVE",
             "created_at": base_date + timedelta(days=batch * 2),
             "updated_at": base_date + timedelta(days=batch * 2),
