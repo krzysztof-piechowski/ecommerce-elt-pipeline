@@ -7,16 +7,14 @@ from faker import Faker
 fake = Faker()
 random.seed(42)
 
-OUTPUT_DIR = "raw"
+OUTPUT_DIR = "data/raw"
 BATCHES = 5
 
 CUSTOMERS_PER_BATCH = 500
-PRODUCTS = 100
 ORDERS_PER_BATCH = 1000
 
-STATUSES_ORDER = ["CREATED", "PAID", "SHIPPED", "DELIVERED", "CANCELLED"]
-STATUSES_PAYMENT = ["INITIATED", "SUCCESS", "FAILED"]
-STATUSES_SHIPMENT = ["CREATED", "IN_TRANSIT", "DELIVERED"]
+ORDER_FLOW = ["CREATED", "PAID", "SHIPPED", "DELIVERED"]
+SHIPPING_COSTS = [0.00, 5.99, 9.99, 10.99, 14.99, 19.99, 24.99]
 
 # Real email domains
 EMAIL_DOMAINS = [
@@ -45,10 +43,14 @@ def generate_phone():
 
 
 def write_json(folder, filename, data):
-    path = os.path.join(OUTPUT_DIR, folder)
-    os.makedirs(path, exist_ok=True)
-    with open(os.path.join(path, filename), "w") as f:
-        json.dump(data, f, indent=2, default=str)
+    try:
+        path = os.path.join(OUTPUT_DIR, folder)
+        os.makedirs(path, exist_ok=True)
+        with open(os.path.join(path, filename), "w") as f:
+            json.dump(data, f, indent=2, default=str)
+    except Exception as e:
+        print(f"❌ Error writing {filename}: {e}")
+        raise
 
 
 # -------------------------
@@ -173,6 +175,8 @@ PRODUCT_CATALOG = [
     ("HP OfficeJet Pro 9015", "Office", "HP", 299.00),
 ]
 
+PRODUCTS = len(PRODUCT_CATALOG)
+
 products = [
     {
         "product_id": i + 1,
@@ -201,8 +205,9 @@ order_id_seq = 1
 order_item_id_seq = 1
 payment_id_seq = 1
 shipment_id_seq = 1
+history_id_seq = 1
 
-base_date = datetime.now() - timedelta(days=30)
+base_date = datetime(2024, 11, 1)
 
 for batch in range(1, BATCHES + 1):
     print(f"Generating batch {batch}/{BATCHES}...")
@@ -244,38 +249,59 @@ for batch in range(1, BATCHES + 1):
     batch_order_items = []
     batch_payments = []
     batch_shipments = []
+    batch_order_status_history = []
     
     for _ in range(ORDERS_PER_BATCH):
         customer = random.choice(batch_customers)
-        order_date = base_date + timedelta(days=batch * 3, hours=random.randint(0, 23))
+        order_date = base_date + timedelta(
+            days=batch * 3, 
+            hours=random.randint(0, 23),
+            minutes=random.randint(0, 59)
+        )
         
-        # Determine order, payment, and shipment statuses
-        order_status = random.choice(STATUSES_ORDER)
+        # Order status determination
+        target_status = random.choice(ORDER_FLOW + ["CANCELLED"])
+        current_history = []
+        has_refund = False
         
-        if order_status == "CANCELLED":
-            payment_status = random.choice(["FAILED", "SUCCESS"])
-            shipment_status = "CREATED"
-        elif order_status == "DELIVERED":
-            payment_status = "SUCCESS"
-            shipment_status = "DELIVERED"
-        elif order_status == "SHIPPED":
-            payment_status = "SUCCESS"
-            shipment_status = "IN_TRANSIT"
-        elif order_status == "PAID":
-            payment_status = "SUCCESS"
-            shipment_status = random.choice(["CREATED", "IN_TRANSIT"])
-        else:  # CREATED
-            payment_status = random.choice(["INITIATED", "SUCCESS"])
-            shipment_status = "CREATED"
+        if target_status == "CANCELLED":
+            # Cancellation can occur after CREATED or after PAID
+            steps = ["CREATED"]
+            if random.random() > 0.5:
+                steps.append("PAID")
+                has_refund = True
+            steps.append("CANCELLED")
+        else:
+            # Follow the FLOW up to the target status
+            steps = ORDER_FLOW[:ORDER_FLOW.index(target_status) + 1]
+
+        last_ts = order_date
+        for step in steps:
+            # Each subsequent status is 1 to 12 hours later
+            last_ts = last_ts + timedelta(hours=random.randint(1, 12))
+            
+            status_entry = {
+                "status_history_id": history_id_seq,
+                "order_id": order_id_seq,
+                "status": step,
+                "changed_at": last_ts
+            }
+            batch_order_status_history.append(status_entry)
+            current_history.append(status_entry)
+            history_id_seq += 1
+
+        # Final order status
+        final_status = current_history[-1]["status"]
+        final_ts = current_history[-1]["changed_at"]
         
         order = {
             "order_id": order_id_seq,
             "customer_id": customer["customer_id"],
-            "order_status": order_status,
+            "order_status": final_status,
             "order_total_amount": 0,  # to be updated later
             "currency": "EUR",
             "created_at": order_date,
-            "updated_at": order_date,
+            "updated_at": final_ts,
         }
         
         # ORDER ITEMS
@@ -302,6 +328,19 @@ for batch in range(1, BATCHES + 1):
         batch_orders.append(order)
         
         # PAYMENT
+        if final_status in ["PAID", "SHIPPED", "DELIVERED"]:
+            payment_status = "SUCCESS"
+            payment_updated_at = order_date + timedelta(hours=1)
+        elif final_status == "CANCELLED" and has_refund:
+            payment_status = "REFUNDED"
+            payment_updated_at = final_ts + timedelta(hours=random.randint(1, 24))
+        elif final_status == "CANCELLED":
+            payment_status = "FAILED"
+            payment_updated_at = order_date + timedelta(hours=1)
+        else:
+            payment_status = "INITIATED"
+            payment_updated_at = order_date + timedelta(hours=1)
+            
         batch_payments.append({
             "payment_id": payment_id_seq,
             "order_id": order_id_seq,
@@ -309,25 +348,27 @@ for batch in range(1, BATCHES + 1):
             "payment_status": payment_status,
             "amount": order["order_total_amount"],
             "created_at": order_date,
-            "updated_at": order_date + timedelta(hours=1),
+            "updated_at": payment_updated_at,
         })
         payment_id_seq += 1
         
         # SHIPMENT
-        shipped_at = order_date + timedelta(days=1) if shipment_status != "CREATED" else None
-        delivered_at = order_date + timedelta(days=random.randint(3, 7)) if shipment_status == "DELIVERED" else None
-        
-        batch_shipments.append({
-            "shipment_id": shipment_id_seq,
-            "order_id": order_id_seq,
-            "carrier": random.choice(["DHL", "UPS", "FEDEX"]),
-            "shipment_status": shipment_status,
-            "shipped_at": shipped_at,
-            "delivered_at": delivered_at,
-            "updated_at": delivered_at or shipped_at or order_date,
-        })
-        shipment_id_seq += 1
-        
+        if final_status in ["SHIPPED", "DELIVERED"]:
+            shipped_ts = next(h["changed_at"] for h in current_history if h["status"] == "SHIPPED")
+            delivered_ts = next((h["changed_at"] for h in current_history if h["status"] == "DELIVERED"), None)
+            
+            batch_shipments.append({
+                "shipment_id": shipment_id_seq,
+                "order_id": order_id_seq,
+                "carrier": random.choice(["DHL", "UPS", "FEDEX"]),
+                "shipment_status": "DELIVERED" if final_status == "DELIVERED" else "IN_TRANSIT",
+                "shipping_cost": random.choice(SHIPPING_COSTS),
+                "shipped_at": shipped_ts,
+                "delivered_at": delivered_ts,
+                "updated_at": delivered_ts or shipped_ts
+            })
+            shipment_id_seq += 1
+
         order_id_seq += 1
     
     # --- SAVE ---
@@ -335,6 +376,7 @@ for batch in range(1, BATCHES + 1):
     write_json("addresses_raw", f"addresses_raw_{batch}.json", batch_addresses)
     write_json("orders_raw", f"orders_raw_{batch}.json", batch_orders)
     write_json("order_items_raw", f"order_items_raw_{batch}.json", batch_order_items)
+    write_json("order_status_history_raw", f"order_status_history_raw_{batch}.json", batch_order_status_history)
     write_json("payments_raw", f"payments_raw_{batch}.json", batch_payments)
     write_json("shipments_raw", f"shipments_raw_{batch}.json", batch_shipments)
 

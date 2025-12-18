@@ -1098,5 +1098,27 @@
     "status": "ACTIVE",
     "created_at": "2024-01-01 00:00:00",
     "updated_at": "2024-01-01 00:00:00"
+  },
+  {
+    "product_id": 101,
+    "name": "Post-it Notes Pack",
+    "category": "Office",
+    "brand": "3M",
+    "price": 19.99,
+    "currency": "EUR",
+    "status": "ACTIVE",
+    "created_at": "2024-01-01 00:00:00",
+    "updated_at": "2024-01-01 00:00:00"
+  },
+  {
+    "product_id": 102,
+    "name": "HP OfficeJet Pro 9015",
+    "category": "Office",
+    "brand": "HP",
+    "price": 299.0,
+    "currency": "EUR",
+    "status": "ACTIVE",
+    "created_at": "2024-01-01 00:00:00",
+    "updated_at": "2024-01-01 00:00:00"
   }
 ]
