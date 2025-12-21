@@ -1,77 +1,77 @@
 {
-	"name": "pipeline_main",
-	"properties": {
-		"activities": [
-			{
-				"name": "GetFolders",
-				"type": "WebActivity",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"method": "GET",
-					"headers": {
-						"User-Agent": "azure-data-factory"
-					},
-					"url": {
-						"value": "https://api.github.com/repos/krzysztof-piechowski/ecommerce-etl-pipeline/contents/data/raw\n",
-						"type": "Expression"
-					}
-				}
-			},
-			{
-				"name": "Loop_thr_folders",
-				"type": "ForEach",
-				"dependsOn": [
-					{
-						"activity": "GetFolders",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"items": {
-						"value": "@json(activity('GetFolders').output.response)",
-						"type": "Expression"
-					},
-					"isSequential": false,
-					"activities": [
-						{
-							"name": "Execute Pipeline - scan files",
-							"type": "ExecutePipeline",
-							"dependsOn": [],
-							"policy": {
-								"secureInput": false
-							},
-							"userProperties": [],
-							"typeProperties": {
-								"pipeline": {
-									"referenceName": "pipeline_2",
-									"type": "PipelineReference"
-								},
-								"waitOnCompletion": true,
-								"parameters": {
-									"folderPath": {
-										"value": "@item().path",
-										"type": "Expression"
-									}
-								}
-							}
-						}
-					]
-				}
-			}
-		],
-		"annotations": [],
-		"lastPublishTime": "2025-12-14T22:39:36Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+    "name": "pipeline_main",
+    "properties": {
+        "activities": [
+            {
+                "name": "GetFolders",
+                "type": "WebActivity",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "method": "GET",
+                    "headers": {
+                        "User-Agent": "azure-data-factory"
+                    },
+                    "url": {
+                        "value": "https://api.github.com/repos/krzysztof-piechowski/ecommerce-etl-pipeline/contents/data/raw\n",
+                        "type": "Expression"
+                    }
+                }
+            },
+            {
+                "name": "Loop_thr_folders",
+                "type": "ForEach",
+                "dependsOn": [
+                    {
+                        "activity": "GetFolders",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "items": {
+                        "value": "@json(activity('GetFolders').output.response)",
+                        "type": "Expression"
+                    },
+                    "isSequential": false,
+                    "activities": [
+                        {
+                            "name": "Execute Pipeline - scan files",
+                            "type": "ExecutePipeline",
+                            "dependsOn": [],
+                            "policy": {
+                                "secureInput": false
+                            },
+                            "userProperties": [],
+                            "typeProperties": {
+                                "pipeline": {
+                                    "referenceName": "pipeline_2",
+                                    "type": "PipelineReference"
+                                },
+                                "waitOnCompletion": true,
+                                "parameters": {
+                                    "folderPath": {
+                                        "value": "@item().path",
+                                        "type": "Expression"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2025-12-14T22:39:36Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
 }

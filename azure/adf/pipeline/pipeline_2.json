@@ -1,116 +1,171 @@
 {
-	"name": "pipeline_2",
-	"properties": {
-		"activities": [
-			{
-				"name": "GetFiles",
-				"type": "WebActivity",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"method": "GET",
-					"url": {
-						"value": "https://api.github.com/repos/krzysztof-piechowski/ecommerce-etl-pipeline/contents/@{pipeline().parameters.folderPath}\n",
-						"type": "Expression"
-					}
-				}
-			},
-			{
-				"name": "Loop_thr_files",
-				"type": "ForEach",
-				"dependsOn": [
-					{
-						"activity": "GetFiles",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"items": {
-						"value": "@json(activity('GetFiles').output.Response)\n",
-						"type": "Expression"
-					},
-					"activities": [
-						{
-							"name": "Copy data",
-							"type": "Copy",
-							"dependsOn": [],
-							"policy": {
-								"timeout": "0.12:00:00",
-								"retry": 0,
-								"retryIntervalInSeconds": 30,
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"userProperties": [],
-							"typeProperties": {
-								"source": {
-									"type": "BinarySource",
-									"storeSettings": {
-										"type": "HttpReadSettings",
-										"requestMethod": "GET"
-									},
-									"formatSettings": {
-										"type": "BinaryReadSettings"
-									}
-								},
-								"sink": {
-									"type": "BinarySink",
-									"storeSettings": {
-										"type": "AzureBlobFSWriteSettings",
-										"copyBehavior": "FlattenHierarchy"
-									}
-								},
-								"enableStaging": false
-							},
-							"inputs": [
-								{
-									"referenceName": "ds_github",
-									"type": "DatasetReference",
-									"parameters": {
-										"relative_url": "@replace(item().download_url,'https://raw.githubusercontent.com/','')"
-									}
-								}
-							],
-							"outputs": [
-								{
-									"referenceName": "ds_storage_raw",
-									"type": "DatasetReference",
-									"parameters": {
-										"directory": {
-											"value": "@concat('data/', split(pipeline().parameters.folderPath,'/')[2])\n",
-											"type": "Expression"
-										},
-										"file": "@item().name"
-									}
-								}
-							]
-						}
-					]
-				}
-			}
-		],
-		"parameters": {
-			"folderPath": {
-				"type": "string"
-			}
-		},
-		"variables": {
-			"aaa": {
-				"type": "String"
-			}
-		},
-		"annotations": [],
-		"lastPublishTime": "2025-12-16T17:59:35Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+    "name": "pipeline_2",
+    "properties": {
+        "activities": [
+            {
+                "name": "GetFiles",
+                "type": "WebActivity",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "method": "GET",
+                    "url": {
+                        "value": "https://api.github.com/repos/krzysztof-piechowski/ecommerce-etl-pipeline/contents/@{pipeline().parameters.folderPath}\n",
+                        "type": "Expression"
+                    }
+                }
+            },
+            {
+                "name": "Loop_thr_files",
+                "type": "ForEach",
+                "dependsOn": [
+                    {
+                        "activity": "GetFiles",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "items": {
+                        "value": "@json(activity('GetFiles').output.Response)\n",
+                        "type": "Expression"
+                    },
+                    "batchCount": 5,
+                    "activities": [
+                        {
+                            "name": "Check_File_Existence",
+                            "type": "GetMetadata",
+                            "dependsOn": [],
+                            "policy": {
+                                "timeout": "0.12:00:00",
+                                "retry": 0,
+                                "retryIntervalInSeconds": 30,
+                                "secureOutput": false,
+                                "secureInput": false
+                            },
+                            "userProperties": [],
+                            "typeProperties": {
+                                "dataset": {
+                                    "referenceName": "ds_storage_raw",
+                                    "type": "DatasetReference",
+                                    "parameters": {
+                                        "directory": "@concat('data/', split(pipeline().parameters.folderPath,'/')[2])",
+                                        "file": "@item().name"
+                                    }
+                                },
+                                "fieldList": [
+                                    "exists"
+                                ],
+                                "storeSettings": {
+                                    "type": "AzureBlobFSReadSettings",
+                                    "enablePartitionDiscovery": false
+                                },
+                                "formatSettings": {
+                                    "type": "BinaryReadSettings"
+                                }
+                            }
+                        },
+                        {
+                            "name": "If_File_Missing",
+                            "type": "IfCondition",
+                            "dependsOn": [
+                                {
+                                    "activity": "Check_File_Existence",
+                                    "dependencyConditions": [
+                                        "Succeeded"
+                                    ]
+                                }
+                            ],
+                            "userProperties": [],
+                            "typeProperties": {
+                                "expression": {
+                                    "value": "@not(activity('Check_File_Existence').output.exists)",
+                                    "type": "Expression"
+                                },
+                                "ifTrueActivities": [
+                                    {
+                                        "name": "Copy data",
+                                        "type": "Copy",
+                                        "dependsOn": [],
+                                        "policy": {
+                                            "timeout": "0.12:00:00",
+                                            "retry": 0,
+                                            "retryIntervalInSeconds": 30,
+                                            "secureOutput": false,
+                                            "secureInput": false
+                                        },
+                                        "userProperties": [],
+                                        "typeProperties": {
+                                            "source": {
+                                                "type": "BinarySource",
+                                                "storeSettings": {
+                                                    "type": "HttpReadSettings",
+                                                    "requestMethod": "GET"
+                                                },
+                                                "formatSettings": {
+                                                    "type": "BinaryReadSettings"
+                                                }
+                                            },
+                                            "sink": {
+                                                "type": "BinarySink",
+                                                "storeSettings": {
+                                                    "type": "AzureBlobFSWriteSettings",
+                                                    "copyBehavior": "FlattenHierarchy"
+                                                }
+                                            },
+                                            "enableStaging": false
+                                        },
+                                        "inputs": [
+                                            {
+                                                "referenceName": "ds_github",
+                                                "type": "DatasetReference",
+                                                "parameters": {
+                                                    "relative_url": "@replace(item().download_url,'https://raw.githubusercontent.com/','')"
+                                                }
+                                            }
+                                        ],
+                                        "outputs": [
+                                            {
+                                                "referenceName": "ds_storage_raw",
+                                                "type": "DatasetReference",
+                                                "parameters": {
+                                                    "directory": {
+                                                        "value": "@concat('data/', split(pipeline().parameters.folderPath,'/')[2])\n",
+                                                        "type": "Expression"
+                                                    },
+                                                    "file": "@item().name"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "parameters": {
+            "folderPath": {
+                "type": "string"
+            }
+        },
+        "variables": {
+            "aaa": {
+                "type": "String"
+            }
+        },
+        "annotations": [],
+        "lastPublishTime": "2025-12-16T17:59:35Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
 }
