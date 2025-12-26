@@ -1,0 +1,40 @@
+{
+	"name": "LS_Snowflake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"parameters": {
+			"accountIdentifier": {
+				"type": "String",
+				"defaultValue": "HIJSBHB-PI11930"
+			},
+			"dbName": {
+				"type": "String",
+				"defaultValue": "ECOMMERCE"
+			},
+			"warehouseName": {
+				"type": "String",
+				"defaultValue": "ETL_WH"
+			}
+		},
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "@{linkedService().accountIdentifier}",
+			"user": "ETL_USER",
+			"database": "@{linkedService().dbName}",
+			"warehouse": "@{linkedService().warehouseName}",
+			"role": "ETL_ROLE",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Snowflake-ETL-Password"
+			},
+			"useUtcTimestamps": false
+		},
+		"version": "1.1"
+	}
+}
