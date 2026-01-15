@@ -395,12 +395,6 @@ ecommerce-etl-pipeline/
 4. Create a pull request to `main`
 5. GitHub Actions will validate and deploy on merge
 
-## 📚 Author
-
-**Krzysztof Piechowski**  
-Data Engineer  
-[LinkedIn](https://linkedin.com/in/krzysztof-piechowski) • [GitHub](https://github.com/krzysztof-piechowski)  
-
 ## 📬 Contact
 
 Created by **Krzysztof Piechowski** - feel free to contact me!
