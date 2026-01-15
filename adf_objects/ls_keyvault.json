@@ -1,0 +1,7 @@
+{
+    "type": "AzureKeyVault",
+    "typeProperties": {
+        "baseUrl": "https://__KV_NAME__.vault.azure.net/"
+    },
+    "annotations": []
+}

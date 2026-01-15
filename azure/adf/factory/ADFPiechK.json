@@ -1,9 +1,0 @@
-{
-	"name": "ADFPiechK",
-	"location": "switzerlandnorth",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "5ba1bf94-f23f-4033-8aa9-165405e2530c",
-		"tenantId": "6cf42136-a401-4a7b-8dcb-a50ff06fb9b5"
-	}
-}

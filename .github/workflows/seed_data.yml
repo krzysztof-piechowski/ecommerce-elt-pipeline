@@ -1,0 +1,140 @@
+# This workflow is triggered manually to seed initial data into the Azure Blob Storage.
+
+name: Generate Data & Run ETL
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 19 * * *' 
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  generate-data:
+    runs-on: ubuntu-latest
+    
+    env:
+      ARM_CLIENT_ID:         ${{ fromJson(secrets.AZURE_CONFIG).clientId }}
+      ARM_CLIENT_SECRET:     ${{ fromJson(secrets.AZURE_CONFIG).clientSecret }}
+      ARM_SUBSCRIPTION_ID:   ${{ fromJson(secrets.AZURE_CONFIG).subscriptionId }}
+      ARM_TENANT_ID:         ${{ fromJson(secrets.AZURE_CONFIG).tenantId }}
+
+      # ADF Pipeline Name
+      ADF_PIPELINE_NAME: "pipeline_main"
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+
+      # Load and mask Azure configuration from secrets
+      - name: Load and Mask Azure Config
+        id: load_secrets
+        run: |
+          JSON='${{ secrets.AZURE_CONFIG }}'
+          
+          
+          export_var() {
+            val=$(echo "$JSON" | jq -r ".$1")
+            
+            # mask if true
+            if [ "$3" == "true" ]; then
+              echo "::add-mask::$val"
+            fi
+            
+            echo "$2=$val" >> $GITHUB_ENV
+          }
+
+          export_var "clientSecret" "ARM_CLIENT_SECRET" "true"
+          export_var "clientId" "ARM_CLIENT_ID" "true"
+          export_var "subscriptionId" "ARM_SUBSCRIPTION_ID" "true"
+          export_var "tenantId" "ARM_TENANT_ID" "true"
+      
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: >-
+            {
+              "clientId": "${{ env.ARM_CLIENT_ID }}",
+              "clientSecret": "${{ env.ARM_CLIENT_SECRET }}",
+              "subscriptionId": "${{ env.ARM_SUBSCRIPTION_ID }}",
+              "tenantId": "${{ env.ARM_TENANT_ID }}"
+            }
+
+          
+      - name: Find Infrastructure on Azure
+        id: find_resources
+        run: |
+          echo "Looking for existing Azure Storage Account and Resource Group..."
+          
+          STORAGE_NAME=$(az resource list --tag Project=Ecommerce-ETL --query "[?type=='Microsoft.Storage/storageAccounts'].name | [0]" -o tsv)
+          echo "Found Storage account: $STORAGE_NAME"
+          
+          RG_NAME=$(az resource list --tag Project=Ecommerce-ETL --query "[?type=='Microsoft.Storage/storageAccounts'].resourceGroup | [0]" -o tsv)
+          echo "Found Resource Group: $RG_NAME"
+
+          ADF_NAME=$(az resource list --tag Project=Ecommerce-ETL --query "[?type=='Microsoft.DataFactory/factories'].name | [0]" -o tsv)
+          echo "Found Data Factory: $ADF_NAME"
+
+          # Check if storage account was found
+          if [ -z "$STORAGE_NAME" ]; then
+            echo "ERROR: Could not find Storage Account with tag Project=Ecommerce-ETL"
+            exit 1
+          fi
+
+          echo "STORAGE_NAME=$STORAGE_NAME" >> $GITHUB_ENV
+          echo "RG_NAME=$RG_NAME" >> $GITHUB_ENV
+          echo "ADF_NAME=$ADF_NAME" >> $GITHUB_ENV
+
+      
+      - name: Whitelist Runner IP
+        run: |
+          ip=$(curl -s https://api.ipify.org)
+          az storage account network-rule add --resource-group ${{ env.RG_NAME }} --account-name ${{ env.STORAGE_NAME }} --ip-address $ip
+          echo "RUNNER_IP=$ip" >> $GITHUB_ENV
+          echo "IP $ip added to firewall."
+
+          echo "Waiting 30s for Firewall propagation..."
+          sleep 30
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Libraries
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate and Upload Data
+        run: python scripts/oltp_data_generator.py
+        env:
+          AZURE_STORAGE_ACCOUNT: ${{ env.STORAGE_NAME }}
+          AZURE_CONTAINER_NAME: "raw"
+
+
+      # Cleanup firewall rule
+      - name: Cleanup Firewall Rule
+        if: always()
+        run: |
+          az storage account network-rule remove --resource-group ${{ env.RG_NAME }} --account-name ${{ env.STORAGE_NAME }} --ip-address ${{ env.RUNNER_IP }}
+
+
+      # Trigger ADF Pipeline
+      - name: Trigger ADF Pipeline
+        if: success()
+        run: |
+          echo "Triggering Azure Data Factory Pipeline..."
+          
+          # Trigger pipeline 'ADF_PIPELINE_NAME'
+          RUN_ID=$(az datafactory pipeline create-run \
+            --resource-group ${{ env.RG_NAME }} \
+            --factory-name ${{ env.ADF_NAME }} \
+            --name ${{ env.ADF_PIPELINE_NAME }} \
+            --query "runId" -o tsv)
+            
+          echo "Pipeline triggered successfully! Run ID: $RUN_ID"
+          echo "Check status in Azure Portal: https://portal.azure.com/#resource/subscriptions/${{ env.ARM_SUBSCRIPTION_ID }}/resourceGroups/${{ env.RG_NAME }}/providers/Microsoft.DataFactory/factories/${{ env.ADF_NAME }}/monitoring"

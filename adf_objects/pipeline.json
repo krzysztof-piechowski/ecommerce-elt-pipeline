@@ -1,0 +1,67 @@
+{
+    "name": "pipeline_main",
+    "properties": {
+        "activities": [
+            {
+                "name": "Call_Bronze_Master",
+                "type": "Script",
+                "dependsOn": [],
+                "linkedServiceName": {
+                    "referenceName": "LS_Snowflake",
+                    "type": "LinkedServiceReference"
+                },
+                "typeProperties": {
+                    "scripts": [
+                        {
+                            "type": "Query",
+                            "text": {
+                                "value": "CALL ECOMMERCE.BRONZE.LOAD_BRONZE_MASTER('@{pipeline().RunId}');",
+                                "type": "Expression"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Call_Silver_Master",
+                "type": "Script",
+                "dependsOn": [{"activity": "Call_Bronze_Master","dependencyConditions": ["Succeeded"]}],
+                "linkedServiceName": {
+                    "referenceName": "LS_Snowflake",
+                    "type": "LinkedServiceReference"
+                },
+                "typeProperties": {
+                    "scripts": [
+                        {
+                            "type": "Query",
+                            "text": {
+                                "value": "CALL ECOMMERCE.SILVER.LOAD_SILVER_MASTER('@{pipeline().RunId}');",
+                                "type": "Expression"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Call_Gold_Master",
+                "type": "Script",
+                "dependsOn": [{"activity": "Call_Silver_Master","dependencyConditions": ["Succeeded"]}],
+                "linkedServiceName": {
+                    "referenceName": "LS_Snowflake",
+                    "type": "LinkedServiceReference"
+                },
+                "typeProperties": {
+                    "scripts": [
+                        {
+                            "type": "Query",
+                            "text": {
+                                "value": "CALL ECOMMERCE.GOLD.LOAD_GOLD_MASTER('@{pipeline().RunId}');",
+                                "type": "Expression"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

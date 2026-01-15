@@ -1,0 +1,19 @@
+{
+    "type": "SnowflakeV2",
+    "typeProperties": {
+        "accountIdentifier": "__SNOWFLAKE_ACCOUNT__",
+        "user": "ETL_USER",
+        "database": "ECOMMERCE",
+        "warehouse": "ETL_WH",
+        "authenticationType": "Basic",
+        "password": {
+            "type": "AzureKeyVaultSecret",
+            "store": {
+                "referenceName": "LS_KeyVault",
+                "type": "LinkedServiceReference"
+            },
+            "secretName": "sn-etl-password"
+        }
+    },
+    "annotations": []
+}

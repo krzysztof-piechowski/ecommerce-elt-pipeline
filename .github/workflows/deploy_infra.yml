@@ -1,0 +1,183 @@
+# Deploy Ecommerce Data Pipeline Workflow
+
+name: Deploy Infrastructure & Code
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+        - 'README.md'
+        - '.gitignore'
+
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    env:
+      # GitHub Secrets for Snowflake
+      SNOWFLAKE_ACCOUNT:    ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      SNOWFLAKE_USER:       ${{ secrets.SNOWFLAKE_USER }}
+      SNOWFLAKE_PASSWORD:   ${{ secrets.SNOWFLAKE_PASSWORD }}
+      SNOWFLAKE_ETL_PASSWORD: ${{ secrets.SNOWFLAKE_ETL_PASSWORD }}
+      SNOWFLAKE_BI_PASSWORD: ${{ secrets.SNOWFLAKE_BI_PASSWORD }}
+      
+      # Azure Service Principal for Terraform
+      ARM_CLIENT_ID:         ${{ fromJson(secrets.AZURE_CONFIG).clientId }}
+      ARM_CLIENT_SECRET:     ${{ fromJson(secrets.AZURE_CONFIG).clientSecret }}
+      ARM_SUBSCRIPTION_ID:   ${{ fromJson(secrets.AZURE_CONFIG).subscriptionId }}
+      ARM_TENANT_ID:         ${{ fromJson(secrets.AZURE_CONFIG).tenantId }}
+
+      RG_TFSTATE_NAME:        ${{ fromJson(secrets.AZURE_CONFIG).resourceGroupName }}
+      ST_TFSTATE_NAME:        ${{ fromJson(secrets.AZURE_CONFIG).tfStateStorageAccount }}
+      ST_TFSTATE_CONTAINER_NAME:  "tfstate"
+      ST_TFSTATE_KEY_NAME:        "ecommerce.terraform.tfstate"
+
+      # Snowflake Principal ID for Role Assignment
+      SNOWFLAKE_PRINCIPAL_ID: ${{ fromJson(secrets.AZURE_CONFIG).snowflakePrincipalId }}
+
+      # Predefined Role ID
+      ROLE_ID_STORAGE_BLOB_DATA_CONTRIBUTOR: "ba92f5b4-2d11-453d-a403-e96b0029c9fe"
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+
+      # Load and mask Azure configuration from secrets
+      - name: Load and Mask Azure Config
+        id: load_secrets
+        run: |
+          JSON='${{ secrets.AZURE_CONFIG }}'
+
+          export_var() {
+            val=$(echo "$JSON" | jq -r ".$1")
+            
+            # mask if true
+            if [ "$3" == "true" ]; then
+              echo "::add-mask::$val"
+            fi
+            
+            echo "$2=$val" >> $GITHUB_ENV
+          }
+
+          export_var "clientSecret" "ARM_CLIENT_SECRET" "true"
+          export_var "clientId" "ARM_CLIENT_ID" "true"
+          export_var "subscriptionId" "ARM_SUBSCRIPTION_ID" "true"
+          export_var "tenantId" "ARM_TENANT_ID" "true"
+          export_var "resourceGroupName" "RG_TFSTATE_NAME" "false"
+          export_var "tfStateStorageAccount" "ST_TFSTATE_NAME" "false"
+          export_var "snowflakePrincipalId" "SNOWFLAKE_PRINCIPAL_ID" "true"
+
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: >-
+            {
+              "clientId": "${{ env.ARM_CLIENT_ID }}",
+              "clientSecret": "${{ env.ARM_CLIENT_SECRET }}",
+              "subscriptionId": "${{ env.ARM_SUBSCRIPTION_ID }}",
+              "tenantId": "${{ env.ARM_TENANT_ID }}"
+            }
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+            terraform_version: 1.13.4 
+            terraform_wrapper: false
+
+      - name: Get Runner IP
+        id: ip
+        run: |
+          ip=$(curl -s https://api.ipify.org)
+          echo "Public IP is $ip"
+          echo "RUNNER_IP=$ip" >> $GITHUB_ENV
+
+      - name: Terraform Init & Apply
+        working-directory: ./terraform
+        run: |
+          # Backend Configuration and Apply
+          terraform init -backend-config="resource_group_name=${{ env.RG_TFSTATE_NAME }}" \
+                         -backend-config="storage_account_name=${{ env.ST_TFSTATE_NAME }}" \
+                         -backend-config="container_name=${{ env.ST_TFSTATE_CONTAINER_NAME }}" \
+                         -backend-config="key=${{ env.ST_TFSTATE_KEY_NAME }}"
+
+          terraform apply -auto-approve -var="runner_ip=${{ env.RUNNER_IP }}"
+          
+          # Export Outputs to Environment Variables
+          echo "RG_NAME=$(terraform output -raw resource_group_name)" >> $GITHUB_ENV
+          echo "STORAGE_NAME=$(terraform output -raw storage_account_name)" >> $GITHUB_ENV
+          echo "KV_NAME=$(terraform output -raw key_vault_name)" >> $GITHUB_ENV
+          echo "ADF_NAME=$(terraform output -raw data_factory_name)" >> $GITHUB_ENV
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      # Install Python dependencies
+      - name: Install Python Libraries
+        run: pip install -r scripts/requirements.txt
+
+      # Deploy Snowflake Objects
+      - name: Deploy Snowflake
+        run: python scripts/deploy_snowflake.py
+        env:
+          AZURE_RESOURCE_GROUP: ${{ env.RG_NAME }}
+          AZURE_STORAGE_ACCOUNT: ${{ env.STORAGE_NAME }}
+          AZURE_SUBSCRIPTION_ID: ${{ env.ARM_SUBSCRIPTION_ID }}
+          REPLACE_AZURE_TENANT_ID: ${{ env.ARM_TENANT_ID }}
+          REPLACE_STORAGE_URL: "azure://${{ env.STORAGE_NAME }}.blob.core.windows.net/raw/"
+          SNOWFLAKE_PRINCIPAL_ID: ${{ env.SNOWFLAKE_PRINCIPAL_ID }}
+
+          # Predefined Role ID
+          ROLE_ID_STORAGE_BLOB_DATA_CONTRIBUTOR: ${{ env.ROLE_ID_STORAGE_BLOB_DATA_CONTRIBUTOR }}
+
+      # Store Snowflake Passwords in Key Vault
+      - name: Key Vault - Store Snowflake Passwords
+        run: |
+          az keyvault secret set --vault-name ${{ env.KV_NAME }} --name "sn-etl-password" --value "${{ env.SNOWFLAKE_ETL_PASSWORD }}"
+
+      # Deploy Azure Data Factory Objects
+      - name: Deploy Azure Data Factory Objects
+        run: |
+          echo "Deploying ADF objects to Factory: $ADF_NAME"
+
+          # Create a temporary directory for processed ADF objects
+          mkdir -p adf_processed
+
+
+
+          # Prepare and deploy each ADF object
+
+          # Key Vault Linked Service
+          sed "s/__KV_NAME__/${{ env.KV_NAME }}/g" adf_objects/ls_keyvault.json > adf_processed/ls_keyvault.json
+
+          # Snowflake Linked Service
+          sed "s/__SNOWFLAKE_ACCOUNT__/${{ env.SNOWFLAKE_ACCOUNT }}/g" adf_objects/ls_snowflake.json > adf_processed/ls_snowflake.json
+
+          # ADF Pipeline
+          cp adf_objects/pipeline.json adf_processed/pipeline.json
+
+          # Deploy Linked Services and Pipeline to ADF
+          echo "Creating Linked Service: LS_KeyVault..."
+          az datafactory linked-service create --resource-group $RG_NAME --factory-name $ADF_NAME --name "LS_KeyVault" --properties @adf_processed/ls_keyvault.json
+
+          echo "Creating Linked Service: LS_Snowflake..."
+          az datafactory linked-service create --resource-group $RG_NAME --factory-name $ADF_NAME --name "LS_Snowflake" --properties @adf_processed/ls_snowflake.json
+
+          echo "Creating Pipeline: pipeline_main..."
+          az datafactory pipeline create --resource-group $RG_NAME --factory-name $ADF_NAME --name "pipeline_main" --pipeline @adf_processed/pipeline.json
+
+
+      # Cleanup firewall rule
+      - name: Cleanup Firewall Rule
+        if: always()
+        run: |
+          az storage account network-rule remove --resource-group ${{ env.RG_NAME }} --account-name ${{ env.STORAGE_NAME }} --ip-address ${{ env.RUNNER_IP }}

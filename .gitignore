@@ -1,0 +1,48 @@
+// Initialize logic for .gitignore file
+
+# Terraform files to ignore
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform directories to ignore
+.terraform/
+.terraform.lock.hcl
+
+# Variable definition files
+*.tfvars
+*.tfvars.json
+
+# Local crash log files
+crash.log
+override.tf
+override.tf.json
+
+# Python files to ignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variable files
+.env
+.env.*
+
+# Backend configuration files
+terraform/backend.conf
+
+# Log files
+*.log
