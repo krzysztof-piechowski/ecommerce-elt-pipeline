@@ -395,6 +395,23 @@ ecommerce-etl-pipeline/
 4. Create a pull request to `main`
 5. GitHub Actions will validate and deploy on merge
 
+## 💡 Design Decisions & Trade-offs
+
+* **Native Snowflake Implementation**
+    * **Decision:** I deliberately chose **Stored Procedures** and raw SQL over abstract frameworks (like dbt).
+    * **Rationale:** This approach demonstrates a deep understanding of database internals, including transaction management, manual `MERGE` logic for SCD Type 2, and the usage of Snowflake-specific objects like Streams and Tasks.
+
+* **Orchestrator Pattern**
+    * **Decision:** Instead of relying on event-based triggers per individual file, I used **GitHub Actions** as a centralized orchestrator.
+    * **Rationale:** This prevents "trigger storms" during batch uploads and ensures data integrity by triggering the ETL process only once the complete dataset has been successfully generated and uploaded.
+
+## 🚀 Future Roadmap
+
+- [ ] **Modern Transformation Stack:** Migrate SQL transformation logic to **dbt** (Data Build Tool) to leverage automated documentation, lineage graphs, and modular testing.
+- [ ] **Advanced Data Quality:** Implement **Great Expectations** suite for more granular data validation rules and automated reporting.
+- [ ] **Observability:** Integrate with a tool like DataDog or Prometheus for real-time pipeline monitoring.
+
+
 ## 📬 Contact
 
 Created by **Krzysztof Piechowski** - feel free to contact me!
